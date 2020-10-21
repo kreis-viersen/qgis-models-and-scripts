@@ -1,2 +1,5 @@
-Use XML syntax highlighting for .model3 files (https://github.com/github/linguist#overrides)
+# Use XML syntax highlighting for .model3 files (https://github.com/github/linguist#overrides)
 models/*.model3 linguist-language=XML
+
+# Exclude functions folder, linguist statistics are wrong because .model3 ist not considered as XML (related issue https://github.com/github/linguist/issues/3665)
+functions/* linguist-vendored
