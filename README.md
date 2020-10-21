@@ -1,5 +1,5 @@
 # qgis-models-and-functions
-Individuelle Modelle für den QGIS Modeler und Python Funktionen
+Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.10/de/docs/user_manual/processing/modeler.html) und Python [Funktionen](https://docs.qgis.org/3.10/de/docs/user_manual/working_with_vector/expression.html#function-editor)
 
 ### Übersicht benötigte Funktionen je Modell
 |  Modell | benötigte Funktion(en)  |   
@@ -9,6 +9,7 @@ Individuelle Modelle für den QGIS Modeler und Python Funktionen
 | [_Join_mit_Rest](#_Join_mit_Rest)  | :x:   | 
 | [_Puffer_in_Projekt-Einheit](#_Puffer_in_Projekt-Einheit)  | [_all_fields](functions/_all_fields.py)  | 
 | [_zaehle_Kleines_im_Grossen](#_zaehle_Kleines_im_Grossen)  | :x:   | 
+
 
 ### Übersicht Modelle
 
