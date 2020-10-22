@@ -1,4 +1,4 @@
-# qgis-models-and-functions
+# qgis-models-and-scripts
 Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.10/de/docs/user_manual/processing/modeler.html) und Python [Funktionen](https://docs.qgis.org/3.10/de/docs/user_manual/working_with_vector/expression.html#function-editor)
 
 ### Übersicht benötigte Funktionen je Modell
