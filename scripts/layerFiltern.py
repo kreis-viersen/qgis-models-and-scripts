@@ -28,14 +28,15 @@ from qgis import (processing,utils)
 from qgis.core import (QgsMessageLog,QgsProject)
 
 class alleLayerFilter(QgsProcessingAlgorithm):
+    # Funktionsübergreifende Namen für die Variablen
     INPUT = 'INPUT'
     FINPUT = 'FINPUT'
     FILTER = 'FILTER'
     FILTERATT = 'FILTERATT'
     OPERATOR = 'OPERATOR'
-    OPERATORX = 'OPERATORX'   
+    #OPERATORX = 'OPERATORX'   # Wird nicht mehr benötigt da der Verknüpfungsoperator direkt vom logischen Operator abhängig ist
     OPERATORS  = ['=','!=']
-    OPERATORSX  = ['AND','OR']
+    #OPERATORSX  = ['AND','OR'] # Wird nicht mehr benötigt da der Verknüpfungsoperator direkt vom logischen Operator abhängig ist
     METHODE = 'METHODE'
     METHODES = ['0','1']
     
@@ -50,7 +51,6 @@ class alleLayerFilter(QgsProcessingAlgorithm):
 
     def displayName(self):        
         return self.tr('Layer filtern')
-
     
     def group(self):
         return self.tr(self.groupId())
@@ -59,16 +59,33 @@ class alleLayerFilter(QgsProcessingAlgorithm):
         return ''
 
     def shortHelpString(self):        
-        return self.tr("Mit diesem Script können mehrere Layer gefiltert werden")
+        return self.tr("Mit diesem Script können mehrere Layer gefiltert werden."+'\n'\
+        +"Sie können mehrere Layer auswählen, die alle mit den eingetragenen Werten gefiltert werden. Mehrere Filter-Werte sind mit Kommata zu trennen."+'\n'\
+        +"Wählen Sie zum Löschen der Filter die gefilterten Layer und die Methode \'Filter Löschen\' aus."+'\n'\
+        +"1. Methode wählen"+'\n'\
+        +"2. Layer wählen (Mehrfachauswahl möglich)"+'\n'\
+        +"3. Filter-Attribut wählen"+'\n'\
+        +"4. Filter-Werte eintragen (mit Komma getrennt)")
     
     def shortDescription(self):
         return self.tr("Mit diesem Script können mehrere Layer gefiltert werden")
     
     def initAlgorithm(self, config=None):
         self.operators = ['=','≠']
-        self.operatorsX = ['AND','OR']
+        #self.operatorsX = ['AND','OR'] # Wird nicht mehr benötigt da der Verknüpfungsoperator direkt vom logischen Operator abhängig ist
         self.methoden = ['Filtern','Filter Löschen']
         
+        # Methode: Filtern oder Filter löschen
+        self.addParameter(
+            QgsProcessingParameterEnum(
+            name = self.METHODE,
+            description  = self.tr('Methode'),
+            options = self.methoden,
+            defaultValue = 0
+            )
+        )
+        
+        # Inputlayer, auch Mehrfachauswahl ist möglich
         self.addParameter(
             QgsProcessingParameterMultipleLayers(
                 name = self.INPUT,
@@ -77,6 +94,7 @@ class alleLayerFilter(QgsProcessingAlgorithm):
             )
         )
         
+        # Felder werde aus dem Layer ausgelesen 
         self.addParameter(
             QgsProcessingParameterVectorLayer(
                 name = self.FINPUT,
@@ -84,7 +102,7 @@ class alleLayerFilter(QgsProcessingAlgorithm):
             )
         )
         
-        
+        # Attribut zum filtern auswählen 
         self.addParameter(
             QgsProcessingParameterField(
                 name = self.FILTERATT,
@@ -95,16 +113,7 @@ class alleLayerFilter(QgsProcessingAlgorithm):
             )
         ) 
         
-        
-        self.addParameter(
-            QgsProcessingParameterString(
-                name = self.FILTER,
-                description  = self.tr('Filter Werte'),
-                optional = 1
-            )
-        )      
-       
-        
+        # Logische Operatoren != oder ==
         self.addParameter(
             QgsProcessingParameterEnum(
             name = self.OPERATOR,
@@ -113,26 +122,28 @@ class alleLayerFilter(QgsProcessingAlgorithm):
             allowMultiple = False,
             defaultValue=1
             )
-        )     
-        
-        self.addParameter(
-            QgsProcessingParameterEnum(
-            name = self.OPERATORX,
-            description  = self.tr('Logischer Operator'),
-            options = self.operatorsX,
-            allowMultiple = False,
-            defaultValue=1
-            )
         )
         
+        # Filterwerte eintragen, mit Kommata getrennt
         self.addParameter(
-            QgsProcessingParameterEnum(
-            name = self.METHODE,
-            description  = self.tr('Methode'),
-            options = self.methoden,
-            defaultValue = 0
+            QgsProcessingParameterString(
+                name = self.FILTER,
+                description  = self.tr('Filter Werte, mit Komma trennen trennen'),
+                optional = 1
             )
-        )
+        )  
+             
+        # Wird nicht mehr benötigt da der Verknüpfungsoperator direkt vom logischen Operator abhängig ist
+        # Verbindungsoperatoren AND oder OR
+        #self.addParameter(
+        #    QgsProcessingParameterEnum(
+        #    name = self.OPERATORX,
+        #    description  = self.tr('Logischer Operator'),
+        #    options = self.operatorsX,
+        #    allowMultiple = False,
+        #    defaultValue=1
+        #    )
+        #)        
 
     def processAlgorithm(self, parameters, context, feedback):        
         
@@ -143,7 +154,12 @@ class alleLayerFilter(QgsProcessingAlgorithm):
                     
             filterValues = self.parameterAsMatrix(parameters,self.FILTER,context)
             filterOpLog = self.OPERATORS[self.parameterAsEnum(parameters, self.OPERATOR, context)]
-            filterOpCon = self.OPERATORSX[self.parameterAsEnum(parameters, self.OPERATORX, context)]
+            
+            if filterOpLog == '=':
+                filterOpCon = 'OR'
+            if filterOpLog == '!=':
+                filterOpCon = 'AND'
+            #filterOpCon = self.OPERATORSX[self.parameterAsEnum(parameters, self.OPERATORX, context)]
             filterAtt = self.parameterAsString(parameters,self.FILTERATT,context)   
             
             count = 0
@@ -158,7 +174,7 @@ class alleLayerFilter(QgsProcessingAlgorithm):
             for layer in sourceLayer:
                 layer.setSubsetString(filterListe) 
            
-            return {self.FILTER: filterValues}
+            return {self.FILTER: filterValues}        
         
         if methode == 1:
             for layer in sourceLayer:
