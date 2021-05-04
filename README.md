@@ -1,14 +1,14 @@
 # qgis-models-and-scripts
-Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.10/de/docs/user_manual/processing/modeler.html) und Python [Funktionen](https://docs.qgis.org/3.10/de/docs/user_manual/working_with_vector/expression.html#function-editor)
+Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.16/de/docs/user_manual/processing/modeler.html) und Python [Funktionen](https://docs.qgis.org/3.16/de/docs/user_manual/working_with_vector/expression.html#function-editor)
 
 ### Übersicht benötigte Funktionen je Modell
 |  Modell | benötigte Funktion(en)  |   
 |---|:---:|
 | [_analytisch_zusammenfuegen](#_analytisch_zusammenfuegen)  | [_all_fields](functions/_all_fields.py)<br>[_array_difference](functions/_array_difference.py) |   
 | [_Centerpoint_Koordinaten_erzeugen](#_Centerpoint_Koordinaten_erzeugen)  | :x:   |   
-| [_Join_mit_Rest](#_Join_mit_Rest)  | :x:   | 
-| [_Puffer_in_Projekt-Einheit](#_Puffer_in_Projekt-Einheit)  | [_all_fields](functions/_all_fields.py)  | 
-| [_zaehle_Kleines_im_Grossen](#_zaehle_Kleines_im_Grossen)  | :x:   | 
+| [_Join_mit_Rest](#_Join_mit_Rest)  | :x:   |
+| [_Puffer_in_Projekt-Einheit](#_Puffer_in_Projekt-Einheit)  | [_all_fields](functions/_all_fields.py)  |
+| [_zaehle_kleines_im_grossen](#_zaehle_kleines_im_grossen)  | :x:   | 
 
 
 ### Übersicht Modelle
@@ -29,6 +29,6 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.10/de/docs/
 
 ![_Puffer_in_Projekt-Einheit](models/_Puffer_in_Projekt-Einheit.png "_Puffer_in_Projekt-Einheit")
 
-#### _zaehle_Kleines_im_Grossen
+#### _zaehle_kleines_im_grossen
 
-![_zaehle_Kleines_im_Grossen](models/_zaehle_Kleines_im_Grossen.png "_zaehle_Kleines_im_Grossen")
+![_zaehle_kleines_im_grossen](models/_zaehle_kleines_im_grossen.png "_zaehle_kleines_im_grossen")
