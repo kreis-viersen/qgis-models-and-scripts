@@ -8,7 +8,11 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.16/de/docs/
 | [_Centerpoint_Koordinaten_erzeugen](#_Centerpoint_Koordinaten_erzeugen)  | :x:   |   
 | [_Join_mit_Rest](#_Join_mit_Rest)  | :x:   |
 | [_Puffer_in_Projekt-Einheit](#_Puffer_in_Projekt-Einheit)  | [_all_fields](functions/_all_fields.py)  |
-| [_zaehle_kleines_im_grossen](#_zaehle_kleines_im_grossen)  | :x:   | 
+| [_zaehle_kleines_im_grossen](#_zaehle_kleines_im_grossen)  | :x:   |
+| [_alle_flurstuecke_kvie](#_alle_flurstuecke_kvie)  | :x:   |
+| [_alle_gebaeude_kvie](#_alle_gebaeude_kvie)  | :x:   |
+| [_alle_navigeb_kvie](#_alle_navigeb_kvie)  | :x:   |
+| [_alle_nutzungsarten_kvie](#_alle_nutzungsarten_kvie)  | :x:   |
 
 
 ### Übersicht Modelle
@@ -32,3 +36,19 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.16/de/docs/
 #### _zaehle_kleines_im_grossen
 
 ![_zaehle_kleines_im_grossen](models/_zaehle_kleines_im_grossen.png "_zaehle_kleines_im_grossen")
+
+#### _alle_flurstuecke_kvie
+
+![_alle_flurstuecke_kvie](models/wfs_daten_kvie/_alle_flurstuecke_kvie.png "_alle_flurstuecke_kvie")
+
+#### _alle_gebaeude_kvie
+
+![_alle_gebaeude_kvie](models/wfs_daten_kvie/_alle_gebaeude_kvie.png "_alle_gebaeude_kvie")
+
+#### _alle_navigeb_kvie
+
+![_alle_navigeb_kvie](models/wfs_daten_kvie/_alle_navigeb_kvie.png "_alle_navigeb_kvie")
+
+#### _alle_nutzungsarten_kvie
+
+![_alle_nutzungsarten_kvie](models/wfs_daten_kvie/_alle_nutzungsarten_kvie.png "_alle_nutzungsarten_kvie")
