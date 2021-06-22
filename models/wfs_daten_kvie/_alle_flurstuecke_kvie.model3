@@ -1,613 +1,765 @@
 <!DOCTYPE model>
 <Option type="Map">
-  <Option type="Map" name="children">
-    <Option type="Map" name="native:createspatialindex_1">
-      <Option type="bool" value="true" name="active"/>
-      <Option name="alg_config"/>
-      <Option type="QString" value="native:createspatialindex" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="868" name="component_pos_x"/>
-        <Option type="double" value="820" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
-      </Option>
-      <Option type="QString" value="Räumlichen Index erzeugen" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="515.9299999999998" name="component_pos_x"/>
-      <Option type="double" value="495.4059999999998" name="component_pos_y"/>
-      <Option type="double" value="200" name="component_width"/>
-      <Option type="List" name="dependencies">
-        <Option type="Map">
-          <Option type="QString" value="native:mergevectorlayers_1" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+  <Option name="children" type="Map">
+    <Option name="native:condition_1" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config" type="Map">
+        <Option name="conditions" type="List">
+          <Option type="Map">
+            <Option name="expression" type="QString" value="array_contains(@Kommunen,0)"/>
+            <Option name="name" type="QString" value="Brüggen"/>
+          </Option>
+          <Option type="Map">
+            <Option name="expression" type="QString" value="array_contains(@Kommunen,1)"/>
+            <Option name="name" type="QString" value="Grefrath"/>
+          </Option>
+          <Option type="Map">
+            <Option name="expression" type="QString" value="array_contains(@Kommunen,2)"/>
+            <Option name="name" type="QString" value="Kempen"/>
+          </Option>
+          <Option type="Map">
+            <Option name="expression" type="QString" value="array_contains(@Kommunen,3)"/>
+            <Option name="name" type="QString" value="Nettetal"/>
+          </Option>
+          <Option type="Map">
+            <Option name="expression" type="QString" value="array_contains(@Kommunen,4)"/>
+            <Option name="name" type="QString" value="Niederkrüchten"/>
+          </Option>
+          <Option type="Map">
+            <Option name="expression" type="QString" value="array_contains(@Kommunen,5)"/>
+            <Option name="name" type="QString" value="Schwalmtal"/>
+          </Option>
+          <Option type="Map">
+            <Option name="expression" type="QString" value="array_contains(@Kommunen,6)"/>
+            <Option name="name" type="QString" value="Tönisvorst"/>
+          </Option>
+          <Option type="Map">
+            <Option name="expression" type="QString" value="array_contains(@Kommunen,7)"/>
+            <Option name="name" type="QString" value="Viersen"/>
+          </Option>
+          <Option type="Map">
+            <Option name="expression" type="QString" value="array_contains(@Kommunen,8)"/>
+            <Option name="name" type="QString" value="Willich"/>
+          </Option>
         </Option>
       </Option>
-      <Option type="QString" value="native:createspatialindex_1" name="id"/>
+      <Option name="alg_id" type="QString" value="native:condition"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1332.6408575"/>
+        <Option name="component_pos_y" type="double" value="924.5586222499999"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Bedingte Verzweigung"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="112"/>
+      <Option name="component_pos_y" type="double" value="457"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="native:condition_1"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params"/>
+    </Option>
+    <Option name="native:createspatialindex_1" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="native:createspatialindex"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="868"/>
+        <Option name="component_pos_y" type="double" value="820"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Räumlichen Index erzeugen"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="1008.9299999999998"/>
+      <Option name="component_pos_y" type="double" value="584.4059999999997"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" type="QString" value="native:deletecolumn_10"/>
+          <Option name="conditional_branch" type="QString" value=""/>
+        </Option>
+      </Option>
+      <Option name="id" type="QString" value="native:createspatialindex_1"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="QString" value="native:mergevectorlayers_1" name="child_id"/>
-            <Option type="QString" value="OUTPUT" name="output_name"/>
-            <Option type="int" value="1" name="source"/>
+            <Option name="child_id" type="QString" value="native:deletecolumn_10"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_1">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:deletecolumn_1" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:deletecolumn" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="320" name="component_pos_x"/>
-        <Option type="double" value="115" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:deletecolumn"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="320"/>
+        <Option name="component_pos_y" type="double" value="115"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Brüggen" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="105" name="component_pos_x"/>
-      <Option type="double" value="45" name="component_pos_y"/>
-      <Option type="double" value="210" name="component_width"/>
-      <Option name="dependencies"/>
-      <Option type="QString" value="native:deletecolumn_1" name="id"/>
+      <Option name="component_description" type="QString" value="Brüggen"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="354"/>
+      <Option name="component_pos_y" type="double" value="126"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" type="QString" value="native:condition_1"/>
+          <Option name="conditional_branch" type="QString" value="Brüggen"/>
+        </Option>
+      </Option>
+      <Option name="id" type="QString" value="native:deletecolumn_1"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
               <Option type="QString" value=""/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Brüggen'" name="static_value"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Brüggen'"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_10">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:deletecolumn_10" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:deletecolumn" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="1055" name="component_pos_x"/>
-        <Option type="double" value="820" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:deletecolumn"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1055"/>
+        <Option name="component_pos_y" type="double" value="820"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Feld(er) löschen" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="578.0379999999999" name="component_pos_x"/>
-      <Option type="double" value="590.5740000000001" name="component_pos_y"/>
-      <Option type="double" value="200" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option name="component_description" type="QString" value="Feld(er) löschen"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="767.0379999999999"/>
+      <Option name="component_pos_y" type="double" value="584.5740000000001"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option type="QString" value="native:createspatialindex_1" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+          <Option name="child_id" type="QString" value="native:mergevectorlayers_1"/>
+          <Option name="conditional_branch" type="QString" value=""/>
         </Option>
       </Option>
-      <Option type="QString" value="native:deletecolumn_10" name="id"/>
-      <Option type="Map" name="outputs">
-        <Option type="Map" name="alle Flurstücke KVIE">
-          <Option type="QString" value="native:deletecolumn_10" name="child_id"/>
-          <Option type="QString" value="" name="color"/>
-          <Option type="Map" name="comment">
-            <Option type="QString" value="" name="color"/>
-            <Option type="QString" value="" name="component_description"/>
-            <Option type="double" value="60" name="component_height"/>
-            <Option type="double" value="0" name="component_pos_x"/>
-            <Option type="double" value="0" name="component_pos_y"/>
-            <Option type="double" value="100" name="component_width"/>
-            <Option type="bool" value="true" name="outputs_collapsed"/>
-            <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="id" type="QString" value="native:deletecolumn_10"/>
+      <Option name="outputs" type="Map">
+        <Option name="Flurstücke KVIE" type="Map">
+          <Option name="child_id" type="QString" value="native:deletecolumn_10"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
           </Option>
-          <Option type="QString" value="alle Flurstücke KVIE" name="component_description"/>
-          <Option type="double" value="30" name="component_height"/>
-          <Option type="double" value="693.856" name="component_pos_x"/>
-          <Option type="double" value="665.8199999999999" name="component_pos_y"/>
-          <Option type="double" value="200" name="component_width"/>
-          <Option type="invalid" name="default_value"/>
-          <Option type="bool" value="false" name="mandatory"/>
-          <Option type="QString" value="alle Flurstücke KVIE" name="name"/>
-          <Option type="QString" value="OUTPUT" name="output_name"/>
-          <Option type="bool" value="true" name="outputs_collapsed"/>
-          <Option type="bool" value="true" name="parameters_collapsed"/>
+          <Option name="component_description" type="QString" value="Flurstücke KVIE"/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="1008.038"/>
+          <Option name="component_pos_y" type="double" value="647.5740000000001"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="invalid"/>
+          <Option name="mandatory" type="bool" value="false"/>
+          <Option name="name" type="QString" value="Flurstücke KVIE"/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
         </Option>
       </Option>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
               <Option type="QString" value="layer"/>
               <Option type="QString" value="path"/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="QString" value="native:createspatialindex_1" name="child_id"/>
-            <Option type="QString" value="OUTPUT" name="output_name"/>
-            <Option type="int" value="1" name="source"/>
+            <Option name="child_id" type="QString" value="native:mergevectorlayers_1"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_2">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:deletecolumn_2" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:deletecolumn" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="452" name="component_pos_x"/>
-        <Option type="double" value="145" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:deletecolumn"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="452"/>
+        <Option name="component_pos_y" type="double" value="145"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Viersen" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="105" name="component_pos_x"/>
-      <Option type="double" value="675" name="component_pos_y"/>
-      <Option type="double" value="210" name="component_width"/>
-      <Option name="dependencies"/>
-      <Option type="QString" value="native:deletecolumn_2" name="id"/>
+      <Option name="component_description" type="QString" value="Viersen"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="354"/>
+      <Option name="component_pos_y" type="double" value="756"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" type="QString" value="native:condition_1"/>
+          <Option name="conditional_branch" type="QString" value="Viersen"/>
+        </Option>
+      </Option>
+      <Option name="id" type="QString" value="native:deletecolumn_2"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
               <Option type="QString" value=""/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Viersen'" name="static_value"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Viersen'"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_3">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:deletecolumn_3" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:deletecolumn" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="614" name="component_pos_x"/>
-        <Option type="double" value="129" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:deletecolumn"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="614"/>
+        <Option name="component_pos_y" type="double" value="129"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Grefrath" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="105" name="component_pos_x"/>
-      <Option type="double" value="135" name="component_pos_y"/>
-      <Option type="double" value="210" name="component_width"/>
-      <Option name="dependencies"/>
-      <Option type="QString" value="native:deletecolumn_3" name="id"/>
+      <Option name="component_description" type="QString" value="Grefrath"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="354"/>
+      <Option name="component_pos_y" type="double" value="216"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" type="QString" value="native:condition_1"/>
+          <Option name="conditional_branch" type="QString" value="Grefrath"/>
+        </Option>
+      </Option>
+      <Option name="id" type="QString" value="native:deletecolumn_3"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
               <Option type="QString" value=""/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Grefrath'" name="static_value"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Grefrath'"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_4">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:deletecolumn_4" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:deletecolumn" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="614" name="component_pos_x"/>
-        <Option type="double" value="128" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:deletecolumn"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="614"/>
+        <Option name="component_pos_y" type="double" value="128"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Niederkrüchten" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="105" name="component_pos_x"/>
-      <Option type="double" value="405" name="component_pos_y"/>
-      <Option type="double" value="210" name="component_width"/>
-      <Option name="dependencies"/>
-      <Option type="QString" value="native:deletecolumn_4" name="id"/>
+      <Option name="component_description" type="QString" value="Niederkrüchten"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="354"/>
+      <Option name="component_pos_y" type="double" value="486"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" type="QString" value="native:condition_1"/>
+          <Option name="conditional_branch" type="QString" value="Niederkrüchten"/>
+        </Option>
+      </Option>
+      <Option name="id" type="QString" value="native:deletecolumn_4"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
               <Option type="QString" value=""/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Niederkrüchten'" name="static_value"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Niederkrüchten'"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_5">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:deletecolumn_5" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:deletecolumn" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="614" name="component_pos_x"/>
-        <Option type="double" value="127" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:deletecolumn"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="614"/>
+        <Option name="component_pos_y" type="double" value="127"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Schwalmtal" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="105" name="component_pos_x"/>
-      <Option type="double" value="495" name="component_pos_y"/>
-      <Option type="double" value="210" name="component_width"/>
-      <Option name="dependencies"/>
-      <Option type="QString" value="native:deletecolumn_5" name="id"/>
+      <Option name="component_description" type="QString" value="Schwalmtal"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="354"/>
+      <Option name="component_pos_y" type="double" value="576"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" type="QString" value="native:condition_1"/>
+          <Option name="conditional_branch" type="QString" value="Schwalmtal"/>
+        </Option>
+      </Option>
+      <Option name="id" type="QString" value="native:deletecolumn_5"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
               <Option type="QString" value=""/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Schwalmtal'" name="static_value"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Schwalmtal'"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_6">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:deletecolumn_6" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:deletecolumn" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="614" name="component_pos_x"/>
-        <Option type="double" value="126" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:deletecolumn"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="614"/>
+        <Option name="component_pos_y" type="double" value="126"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Kempen" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="105" name="component_pos_x"/>
-      <Option type="double" value="225" name="component_pos_y"/>
-      <Option type="double" value="210" name="component_width"/>
-      <Option name="dependencies"/>
-      <Option type="QString" value="native:deletecolumn_6" name="id"/>
+      <Option name="component_description" type="QString" value="Kempen"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="354"/>
+      <Option name="component_pos_y" type="double" value="306"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" type="QString" value="native:condition_1"/>
+          <Option name="conditional_branch" type="QString" value="Kempen"/>
+        </Option>
+      </Option>
+      <Option name="id" type="QString" value="native:deletecolumn_6"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
               <Option type="QString" value=""/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Kempen'" name="static_value"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Kempen'"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_7">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:deletecolumn_7" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:deletecolumn" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="614" name="component_pos_x"/>
-        <Option type="double" value="125" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:deletecolumn"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="614"/>
+        <Option name="component_pos_y" type="double" value="125"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Tönisvorst" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="105" name="component_pos_x"/>
-      <Option type="double" value="585" name="component_pos_y"/>
-      <Option type="double" value="210" name="component_width"/>
-      <Option name="dependencies"/>
-      <Option type="QString" value="native:deletecolumn_7" name="id"/>
+      <Option name="component_description" type="QString" value="Tönisvorst"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="354"/>
+      <Option name="component_pos_y" type="double" value="666"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" type="QString" value="native:condition_1"/>
+          <Option name="conditional_branch" type="QString" value="Tönisvorst"/>
+        </Option>
+      </Option>
+      <Option name="id" type="QString" value="native:deletecolumn_7"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
               <Option type="QString" value=""/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Tönisvorst'" name="static_value"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Tönisvorst'"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_8">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:deletecolumn_8" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:deletecolumn" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="614" name="component_pos_x"/>
-        <Option type="double" value="124" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:deletecolumn"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="614"/>
+        <Option name="component_pos_y" type="double" value="124"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Nettetal" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="105" name="component_pos_x"/>
-      <Option type="double" value="315" name="component_pos_y"/>
-      <Option type="double" value="210" name="component_width"/>
-      <Option name="dependencies"/>
-      <Option type="QString" value="native:deletecolumn_8" name="id"/>
+      <Option name="component_description" type="QString" value="Nettetal"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="354"/>
+      <Option name="component_pos_y" type="double" value="396"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" type="QString" value="native:condition_1"/>
+          <Option name="conditional_branch" type="QString" value="Nettetal"/>
+        </Option>
+      </Option>
+      <Option name="id" type="QString" value="native:deletecolumn_8"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
               <Option type="QString" value=""/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Nettetal'" name="static_value"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Nettetal'"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_9">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:deletecolumn_9" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:deletecolumn" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="614" name="component_pos_x"/>
-        <Option type="double" value="123" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:deletecolumn"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="614"/>
+        <Option name="component_pos_y" type="double" value="123"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Willich" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="105" name="component_pos_x"/>
-      <Option type="double" value="765" name="component_pos_y"/>
-      <Option type="double" value="210" name="component_width"/>
-      <Option name="dependencies"/>
-      <Option type="QString" value="native:deletecolumn_9" name="id"/>
+      <Option name="component_description" type="QString" value="Willich"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="354"/>
+      <Option name="component_pos_y" type="double" value="846"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" type="QString" value="native:condition_1"/>
+          <Option name="conditional_branch" type="QString" value="Willich"/>
+        </Option>
+      </Option>
+      <Option name="id" type="QString" value="native:deletecolumn_9"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
               <Option type="QString" value=""/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Willich'" name="static_value"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Willich'"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:mergevectorlayers_1">
-      <Option type="bool" value="true" name="active"/>
+    <Option name="native:mergevectorlayers_1" type="Map">
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:mergevectorlayers" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
-      <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="525" name="component_pos_x"/>
-        <Option type="double" value="820" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="alg_id" type="QString" value="native:mergevectorlayers"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="525"/>
+        <Option name="component_pos_y" type="double" value="820"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option type="QString" value="Vektorlayer zusammenführen" name="component_description"/>
-      <Option type="double" value="37.19999999999999" name="component_height"/>
-      <Option type="double" value="448" name="component_pos_x"/>
-      <Option type="double" value="400.6" name="component_pos_y"/>
-      <Option type="double" value="200" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option name="component_description" type="QString" value="Vektorlayer zusammenführen"/>
+      <Option name="component_height" type="double" value="37.19999999999999"/>
+      <Option name="component_pos_x" type="double" value="697"/>
+      <Option name="component_pos_y" type="double" value="481.6"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option type="QString" value="native:deletecolumn_1" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+          <Option name="child_id" type="QString" value="native:deletecolumn_1"/>
+          <Option name="conditional_branch" type="QString" value=""/>
         </Option>
         <Option type="Map">
-          <Option type="QString" value="native:deletecolumn_2" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+          <Option name="child_id" type="QString" value="native:deletecolumn_2"/>
+          <Option name="conditional_branch" type="QString" value=""/>
         </Option>
         <Option type="Map">
-          <Option type="QString" value="native:deletecolumn_3" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+          <Option name="child_id" type="QString" value="native:deletecolumn_3"/>
+          <Option name="conditional_branch" type="QString" value=""/>
         </Option>
         <Option type="Map">
-          <Option type="QString" value="native:deletecolumn_4" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+          <Option name="child_id" type="QString" value="native:deletecolumn_4"/>
+          <Option name="conditional_branch" type="QString" value=""/>
         </Option>
         <Option type="Map">
-          <Option type="QString" value="native:deletecolumn_5" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+          <Option name="child_id" type="QString" value="native:deletecolumn_5"/>
+          <Option name="conditional_branch" type="QString" value=""/>
         </Option>
         <Option type="Map">
-          <Option type="QString" value="native:deletecolumn_6" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+          <Option name="child_id" type="QString" value="native:deletecolumn_6"/>
+          <Option name="conditional_branch" type="QString" value=""/>
         </Option>
         <Option type="Map">
-          <Option type="QString" value="native:deletecolumn_7" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+          <Option name="child_id" type="QString" value="native:deletecolumn_7"/>
+          <Option name="conditional_branch" type="QString" value=""/>
         </Option>
         <Option type="Map">
-          <Option type="QString" value="native:deletecolumn_8" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+          <Option name="child_id" type="QString" value="native:deletecolumn_8"/>
+          <Option name="conditional_branch" type="QString" value=""/>
         </Option>
         <Option type="Map">
-          <Option type="QString" value="native:deletecolumn_9" name="child_id"/>
-          <Option type="QString" value="" name="conditional_branch"/>
+          <Option name="child_id" type="QString" value="native:deletecolumn_9"/>
+          <Option name="conditional_branch" type="QString" value=""/>
         </Option>
       </Option>
-      <Option type="QString" value="native:mergevectorlayers_1" name="id"/>
+      <Option name="id" type="QString" value="native:mergevectorlayers_1"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="CRS">
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="CRS" type="List">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="ProjectCrs" name="static_value"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="ProjectCrs"/>
           </Option>
         </Option>
-        <Option type="List" name="LAYERS">
+        <Option name="LAYERS" type="List">
           <Option type="Map">
-            <Option type="QString" value=" array(@Brüggen_OUTPUT,@Grefrath_OUTPUT,@Kempen_OUTPUT,@Nettetal_OUTPUT,@Niederkrüchten_OUTPUT,@Schwalmtal_OUTPUT,@Tönisvorst_OUTPUT,@Viersen_OUTPUT,@Willich_OUTPUT)" name="expression"/>
-            <Option type="int" value="3" name="source"/>
+            <Option name="expression" type="QString" value=" array(@Brüggen_OUTPUT,@Grefrath_OUTPUT,@Kempen_OUTPUT,@Nettetal_OUTPUT,@Niederkrüchten_OUTPUT,@Schwalmtal_OUTPUT,@Tönisvorst_OUTPUT,@Viersen_OUTPUT,@Willich_OUTPUT)"/>
+            <Option name="source" type="int" value="3"/>
           </Option>
         </Option>
       </Option>
     </Option>
   </Option>
-  <Option type="Map" name="designerParameterValues">
-    <Option type="bool" value="true" name="VERBOSE_LOG"/>
-    <Option type="QgsProcessingOutputLayerDefinition" name="native:deletecolumn_10:alle Flurstücke KVIE">
-      <Option type="Map">
-        <Option type="Map" name="create_options">
-          <Option type="QString" value="System" name="fileEncoding"/>
-        </Option>
-        <Option type="Map" name="sink">
-          <Option type="bool" value="true" name="active"/>
-          <Option type="int" value="1" name="type"/>
-          <Option type="QString" value="TEMPORARY_OUTPUT" name="val"/>
-        </Option>
-      </Option>
-    </Option>
-  </Option>
+  <Option name="designerParameterValues" type="Map"/>
   <Option name="groupBoxes"/>
   <Option name="help"/>
   <Option name="modelVariables"/>
-  <Option type="QString" value="WFS Daten" name="model_group"/>
-  <Option type="QString" value="alle Flurstücke KVIE" name="model_name"/>
-  <Option type="Map" name="parameterDefinitions">
-    <Option type="Map" name="native:deletecolumn_10:alle Flurstücke KVIE">
-      <Option type="bool" value="true" name="create_by_default"/>
-      <Option type="int" value="-1" name="data_type"/>
-      <Option type="invalid" name="default"/>
-      <Option type="invalid" name="defaultGui"/>
-      <Option type="QString" value="alle Flurstücke KVIE" name="description"/>
-      <Option type="int" value="0" name="flags"/>
-      <Option type="QString" value="" name="help"/>
+  <Option name="model_group" type="QString" value="WFS Daten"/>
+  <Option name="model_name" type="QString" value="alle Flurstücke KVIE"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="Kommunen" type="Map">
+      <Option name="allow_multiple" type="bool" value="true"/>
+      <Option name="default" type="List">
+        <Option type="int" value="0"/>
+        <Option type="int" value="1"/>
+        <Option type="int" value="2"/>
+        <Option type="int" value="3"/>
+        <Option type="int" value="4"/>
+        <Option type="int" value="5"/>
+        <Option type="int" value="6"/>
+        <Option type="int" value="7"/>
+        <Option type="int" value="8"/>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="Kommunen"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
       <Option name="metadata"/>
-      <Option type="QString" value="native:deletecolumn_10:alle Flurstücke KVIE" name="name"/>
-      <Option type="QString" value="sink" name="parameter_type"/>
-      <Option type="bool" value="true" name="supports_append"/>
-      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+      <Option name="name" type="QString" value="Kommunen"/>
+      <Option name="options" type="StringList">
+        <Option type="QString" value="Brüggen"/>
+        <Option type="QString" value="Grefrath"/>
+        <Option type="QString" value="Kempen"/>
+        <Option type="QString" value="Nettetal"/>
+        <Option type="QString" value="Niederkrüchten"/>
+        <Option type="QString" value="Schwalmtal"/>
+        <Option type="QString" value="Tönisvorst"/>
+        <Option type="QString" value="Viersen"/>
+        <Option type="QString" value="Willich"/>
+      </Option>
+      <Option name="parameter_type" type="QString" value="enum"/>
+      <Option name="uses_static_strings" type="bool" value="false"/>
+    </Option>
+    <Option name="native:deletecolumn_10:Flurstücke KVIE" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="-1"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="Flurstücke KVIE"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata"/>
+      <Option name="name" type="QString" value="native:deletecolumn_10:Flurstücke KVIE"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="true"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
     </Option>
   </Option>
   <Option name="parameterOrder"/>
-  <Option name="parameters"/>
+  <Option name="parameters" type="Map">
+    <Option name="Kommunen" type="Map">
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value="255,0,0,255"/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="402.9353667500001"/>
+        <Option name="component_pos_y" type="double" value="104.00415500000001"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Kommunen"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="106"/>
+      <Option name="component_pos_y" type="double" value="55"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="name" type="QString" value="Kommunen"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+    </Option>
+  </Option>
 </Option>
