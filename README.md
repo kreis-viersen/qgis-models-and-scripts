@@ -62,10 +62,10 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.16/de/docs/
 
 ![_az_attribut](models/analytisch_zusammenfuegen/_az_attribut.png "_az_attribut")
 
-#### _az_alles
+#### _az_attribut_beruehrt
 
 ![_az_attribut_beruehrt](models/analytisch_zusammenfuegen/_az_attribut_beruehrt.png "_az_attribut_beruehrt")
 
-#### _az_alles
+#### _az_beruehrt
 
 ![_az_beruehrt](models/analytisch_zusammenfuegen/_az_beruehrt.png "_az_beruehrt")
