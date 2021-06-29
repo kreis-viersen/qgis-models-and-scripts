@@ -13,7 +13,7 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.16/de/docs/
 | [_alle_gebaeude_kvie](#_alle_gebaeude_kvie)  | :x:   |
 | [_alle_navigeb_kvie](#_alle_navigeb_kvie)  | :x:   |
 | [_alle_nutzungsarten_kvie](#_alle_nutzungsarten_kvie)  | :x:   |
-| Analytisch zusammenfügen |  |
+| analytisch zusammenfügen (az) |  |
 | [_az_alles](#_az_alles)  | :x:   |
 | [_az_attribut](#_az_attribut)  | :x:   |
 | [_az_attribut_beruehrt](#_az_attribut_beruehrt)  | :x:   |
