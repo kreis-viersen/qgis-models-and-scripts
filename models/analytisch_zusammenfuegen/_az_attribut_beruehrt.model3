@@ -1,0 +1,265 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children" type="Map">
+    <Option name="native:dissolve_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:dissolve" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="320" name="component_pos_x" type="double"/>
+        <Option value="115" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Auflösen" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="382.27637199539396" name="component_pos_x" type="double"/>
+      <Option value="242.66300801228266" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option value="native:retainfields_1" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+      </Option>
+      <Option value="native:dissolve_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="FIELD" type="List">
+          <Option type="Map">
+            <Option value="NurGeometrienmitfolgendenAttributenzusammenfgen" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="native:retainfields_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:multiparttosingleparts_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:multiparttosingleparts" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="36" name="component_height" type="double"/>
+        <Option value="476" name="component_pos_x" type="double"/>
+        <Option value="846" name="component_pos_y" type="double"/>
+        <Option value="194.00000000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="multitosingle" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="564.6" name="component_pos_x" type="double"/>
+      <Option value="340.19999999999993" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option value="native:dissolve_1" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+      </Option>
+      <Option value="native:multiparttosingleparts_1" name="id" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="Ergebnis Attribut und berührt (az)" type="Map">
+          <Option value="native:multiparttosingleparts_1" name="child_id" type="QString"/>
+          <Option value="" name="color" type="QString"/>
+          <Option name="comment" type="Map">
+            <Option value="" name="color" type="QString"/>
+            <Option value="" name="component_description" type="QString"/>
+            <Option value="60" name="component_height" type="double"/>
+            <Option value="0" name="component_pos_x" type="double"/>
+            <Option value="0" name="component_pos_y" type="double"/>
+            <Option value="100" name="component_width" type="double"/>
+            <Option value="true" name="outputs_collapsed" type="bool"/>
+            <Option value="true" name="parameters_collapsed" type="bool"/>
+          </Option>
+          <Option value="Ergebnis Attribut und berührt (az)" name="component_description" type="QString"/>
+          <Option value="49.80000000000007" name="component_height" type="double"/>
+          <Option value="837.6999999999999" name="component_pos_x" type="double"/>
+          <Option value="384.90000000000003" name="component_pos_y" type="double"/>
+          <Option value="235.39999999999998" name="component_width" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option value="false" name="mandatory" type="bool"/>
+          <Option value="Ergebnis Attribut und berührt (az)" name="name" type="QString"/>
+          <Option value="OUTPUT" name="output_name" type="QString"/>
+          <Option value="true" name="outputs_collapsed" type="bool"/>
+          <Option value="true" name="parameters_collapsed" type="bool"/>
+        </Option>
+      </Option>
+      <Option value="false" name="outputs_collapsed" type="bool"/>
+      <Option value="false" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="native:dissolve_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:retainfields_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:retainfields" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="2004.9384158710325" name="component_pos_x" type="double"/>
+        <Option value="833.7756600537364" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Zu erhaltende Felder" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="195.13841587103246" name="component_pos_x" type="double"/>
+      <Option value="148.9756600537364" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:retainfields_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="FIELDS" type="List">
+          <Option type="Map">
+            <Option value="NurGeometrienmitfolgendenAttributenzusammenfgen" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="EingabeLayer" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="designerParameterValues" type="Map"/>
+  <Option name="groupBoxes"/>
+  <Option name="help" type="Map">
+    <Option value="" name="ALG_CREATOR" type="QString"/>
+    <Option value="" name="ALG_DESC" type="QString"/>
+    <Option value="" name="ALG_HELP_CREATOR" type="QString"/>
+    <Option value="" name="ALG_VERSION" type="QString"/>
+    <Option value="" name="EingabeLayer" type="QString"/>
+    <Option value="" name="HELP_URL" type="QString"/>
+    <Option value="" name="NurGeometrienmitfolgendenAttributenzusammenfgen" type="QString"/>
+    <Option value="" name="Nurangrenzendegeometrienzusammenfgen" type="QString"/>
+    <Option value="" name="SHORT_DESCRIPTION" type="QString"/>
+    <Option value="" name="qgis:deletecolumn_2:Ergebnis_Analytisch_zusammenfuegen" type="QString"/>
+  </Option>
+  <Option name="modelVariables"/>
+  <Option value="analytisch zusammenfügen (az)" name="model_group" type="QString"/>
+  <Option value="Attribut und berührt (az)" name="model_name" type="QString"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="EingabeLayer" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="0" type="int"/>
+        <Option value="1" type="int"/>
+        <Option value="2" type="int"/>
+        <Option value="-1" type="int"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Eingabe Layer" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="EingabeLayer" name="name" type="QString"/>
+      <Option value="vector" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="NurGeometrienmitfolgendenAttributenzusammenfgen" type="Map">
+      <Option value="true" name="allow_multiple" type="bool"/>
+      <Option value="1" name="data_type" type="int"/>
+      <Option value="" name="default" type="QString"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="false" name="default_to_all_fields" type="bool"/>
+      <Option value="Nur Geometrien mit folgenden Attributen zusammenfügen" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="NurGeometrienmitfolgendenAttributenzusammenfgen" name="name" type="QString"/>
+      <Option value="field" name="parameter_type" type="QString"/>
+      <Option value="EingabeLayer" name="parent_layer" type="QString"/>
+    </Option>
+    <Option name="native:multiparttosingleparts_1:Ergebnis Attribut und berührt (az)" type="Map">
+      <Option value="true" name="create_by_default" type="bool"/>
+      <Option value="-1" name="data_type" type="int"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Ergebnis Attribut und berührt (az)" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="native:multiparttosingleparts_1:Ergebnis Attribut und berührt (az)" name="name" type="QString"/>
+      <Option value="sink" name="parameter_type" type="QString"/>
+      <Option value="true" name="supports_append" type="bool"/>
+      <Option value="true" name="supports_non_file_outputs" type="bool"/>
+    </Option>
+  </Option>
+  <Option name="parameterOrder"/>
+  <Option name="parameters" type="Map">
+    <Option name="EingabeLayer" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="320" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="EingabeLayer" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="120" name="component_pos_x" type="double"/>
+      <Option value="58" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="EingabeLayer" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="NurGeometrienmitfolgendenAttributenzusammenfgen" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1645" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="NurGeometrienmitfolgendenAttributenzusammenfgen" name="component_description" type="QString"/>
+      <Option value="59" name="component_height" type="double"/>
+      <Option value="551" name="component_pos_x" type="double"/>
+      <Option value="70.5" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="NurGeometrienmitfolgendenAttributenzusammenfgen" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+  </Option>
+</Option>

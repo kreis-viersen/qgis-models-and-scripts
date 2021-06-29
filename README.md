@@ -4,22 +4,23 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.16/de/docs/
 ### Übersicht benötigte Funktionen je Modell
 |  Modell | benötigte Funktion(en)  |   
 |---|:---:|
-| [_analytisch_zusammenfuegen](#_analytisch_zusammenfuegen)  | [_all_fields](functions/_all_fields.py)<br>[_array_difference](functions/_array_difference.py) |   
 | [_Centerpoint_Koordinaten_erzeugen](#_Centerpoint_Koordinaten_erzeugen)  | :x:   |   
 | [_Join_mit_Rest](#_Join_mit_Rest)  | :x:   |
 | [_Puffer_in_Projekt-Einheit](#_Puffer_in_Projekt-Einheit)  | [_all_fields](functions/_all_fields.py)  |
 | [_zaehle_kleines_im_grossen](#_zaehle_kleines_im_grossen)  | :x:   |
+| WFS Daten Kreis Viersen (KVIE) |  |
 | [_alle_flurstuecke_kvie](#_alle_flurstuecke_kvie)  | :x:   |
 | [_alle_gebaeude_kvie](#_alle_gebaeude_kvie)  | :x:   |
 | [_alle_navigeb_kvie](#_alle_navigeb_kvie)  | :x:   |
 | [_alle_nutzungsarten_kvie](#_alle_nutzungsarten_kvie)  | :x:   |
+| Analytisch zusammenfügen |  |
+| [_az_alles](#_az_alles)  | :x:   |
+| [_az_attribut](#_az_attribut)  | :x:   |
+| [_az_attribut_beruehrt](#_az_attribut_beruehrt)  | :x:   |
+| [_az_beruehrt](#_az_beruehrt)  | :x:   |
 
 
 ### Übersicht Modelle
-
-#### _analytisch_zusammenfuegen
-
-![_analytisch_zusammenfuegen](models/_analytisch_zusammenfuegen.png "_analytisch_zusammenfuegen")
 
 #### _Centerpoint_Koordinaten_erzeugen
 
@@ -52,3 +53,19 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/3.16/de/docs/
 #### _alle_nutzungsarten_kvie
 
 ![_alle_nutzungsarten_kvie](models/wfs_daten_kvie/_alle_nutzungsarten_kvie.png "_alle_nutzungsarten_kvie")
+
+#### _az_alles
+
+![_az_alles](models/analytisch_zusammenfuegen/_az_alles.png "_az_alles")
+
+#### _az_attribut
+
+![_az_attribut](models/analytisch_zusammenfuegen/_az_attribut.png "_az_attribut")
+
+#### _az_alles
+
+![_az_attribut_beruehrt](models/analytisch_zusammenfuegen/_az_attribut_beruehrt.png "_az_attribut_beruehrt")
+
+#### _az_alles
+
+![_az_beruehrt](models/analytisch_zusammenfuegen/_az_beruehrt.png "_az_beruehrt")
