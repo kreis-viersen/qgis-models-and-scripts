@@ -5,7 +5,7 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/latest/de/doc
 
 - [_Centerpoint_Koordinaten_erzeugen](#_Centerpoint_Koordinaten_erzeugen)
 - [_Join_mit_Rest](#_Join_mit_Rest)
-- [_puffer_in_projekt-einheit](#_puffer_in_projekt-einheit)
+- [_puffer_in_projekteinheit](#_puffer_in_projekteinheit)
 - [_zaehle_kleines_im_grossen](#_zaehle_kleines_im_grossen)
 - WFS Daten Kreis Viersen (KVIE)
   - [_alle_flurstuecke_kvie](#_alle_flurstuecke_kvie)
@@ -28,9 +28,9 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/latest/de/doc
 
 ![_Join_mit_Rest](models/_Join_mit_Rest.png "_Join_mit_Rest")
 
-#### _puffer_in_projekt-einheit
+#### _puffer_in_projekteinheit
 
-![_puffer_in_projekt-einheit](models/_puffer_in_projekt-einheit.png "_puffer_in_projekt-einheit")
+![_puffer_in_projekteinheit](models/_puffer_in_projekteinheit.png "_puffer_in_projekteinheit")
 
 #### _zaehle_kleines_im_grossen
 

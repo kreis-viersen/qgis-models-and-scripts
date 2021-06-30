@@ -29,7 +29,7 @@
       </Option>
       <Option name="id" type="QString" value="native:buffer_1"/>
       <Option name="outputs" type="Map">
-        <Option name="Puffer in Projekt-Einheit" type="Map">
+        <Option name="Puffer in Projekteinheit" type="Map">
           <Option name="child_id" type="QString" value="native:buffer_1"/>
           <Option name="color" type="QString" value=""/>
           <Option name="comment" type="Map">
@@ -42,14 +42,14 @@
             <Option name="outputs_collapsed" type="bool" value="true"/>
             <Option name="parameters_collapsed" type="bool" value="true"/>
           </Option>
-          <Option name="component_description" type="QString" value="Puffer in Projekt-Einheit"/>
+          <Option name="component_description" type="QString" value="Puffer in Projekteinheit"/>
           <Option name="component_height" type="double" value="30"/>
           <Option name="component_pos_x" type="double" value="810"/>
           <Option name="component_pos_y" type="double" value="510"/>
           <Option name="component_width" type="double" value="200"/>
           <Option name="default_value" type="invalid"/>
           <Option name="mandatory" type="bool" value="false"/>
-          <Option name="name" type="QString" value="Puffer in Projekt-Einheit"/>
+          <Option name="name" type="QString" value="Puffer in Projekteinheit"/>
           <Option name="output_name" type="QString" value="OUTPUT"/>
           <Option name="outputs_collapsed" type="bool" value="true"/>
           <Option name="parameters_collapsed" type="bool" value="true"/>
@@ -241,7 +241,7 @@
   <Option name="help"/>
   <Option name="modelVariables"/>
   <Option name="model_group" type="QString" value=""/>
-  <Option name="model_name" type="QString" value="Puffer in Projekt-Einheit"/>
+  <Option name="model_name" type="QString" value="Puffer in Projekteinheit"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="AbstandinProjektKBSEinheit" type="Map">
       <Option name="data_type" type="int" value="1"/>
@@ -333,16 +333,16 @@
       <Option name="name" type="QString" value="EingabeVektorlayer"/>
       <Option name="parameter_type" type="QString" value="vector"/>
     </Option>
-    <Option name="native:buffer_1:Puffer in Projekt-Einheit" type="Map">
+    <Option name="native:buffer_1:Puffer in Projekteinheit" type="Map">
       <Option name="create_by_default" type="bool" value="true"/>
       <Option name="data_type" type="int" value="2"/>
       <Option name="default" type="invalid"/>
       <Option name="defaultGui" type="invalid"/>
-      <Option name="description" type="QString" value="Puffer in Projekt-Einheit"/>
+      <Option name="description" type="QString" value="Puffer in Projekteinheit"/>
       <Option name="flags" type="int" value="0"/>
       <Option name="help" type="QString" value=""/>
       <Option name="metadata"/>
-      <Option name="name" type="QString" value="native:buffer_1:Puffer in Projekt-Einheit"/>
+      <Option name="name" type="QString" value="native:buffer_1:Puffer in Projekteinheit"/>
       <Option name="parameter_type" type="QString" value="sink"/>
       <Option name="supports_append" type="bool" value="true"/>
       <Option name="supports_non_file_outputs" type="bool" value="true"/>
