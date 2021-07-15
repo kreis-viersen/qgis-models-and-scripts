@@ -165,21 +165,7 @@
       </Option>
     </Option>
   </Option>
-  <Option type="Map" name="designerParameterValues">
-    <Option type="bool" value="true" name="VERBOSE_LOG"/>
-    <Option type="QgsProcessingOutputLayerDefinition" name="native:extractbyattribute_1:Kreisgrenze Viersen">
-      <Option type="Map">
-        <Option type="Map" name="create_options">
-          <Option type="QString" value="System" name="fileEncoding"/>
-        </Option>
-        <Option type="Map" name="sink">
-          <Option type="bool" value="true" name="active"/>
-          <Option type="int" value="1" name="type"/>
-          <Option type="QString" value="TEMPORARY_OUTPUT" name="val"/>
-        </Option>
-      </Option>
-    </Option>
-  </Option>
+  <Option type="Map" name="designerParameterValues"/>
   <Option name="groupBoxes"/>
   <Option name="help"/>
   <Option name="modelVariables"/>
