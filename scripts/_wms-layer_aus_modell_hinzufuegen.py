@@ -56,7 +56,7 @@ class addWMSlayer(QgsProcessingAlgorithm):
             QgsProcessingParameterString(
                 name = self.urlWithParams,
                 description  = self.tr('URL/Parameter Zeichenkette'),
-                defaultValue  = 'crs=EPSG:25832&dpiMode=7&format=image/png&layers=adv_alkis_flurstuecke&styles&url=https://alkisservices.krzn.de/WMS_ALKIS_viersen/FlurkarteADV'
+                defaultValue  = 'crs=EPSG:25832&dpiMode=7&format=image/png&layers=FlurkarteAdV_Viersen&styles&url=https://gdi-niederrhein-geodienste.de/flurkarte_verb_sammeldienst/service'
             )
         )
 
