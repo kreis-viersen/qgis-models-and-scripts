@@ -6,6 +6,7 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/latest/de/doc
 - [_Centerpoint_Koordinaten_erzeugen](#_Centerpoint_Koordinaten_erzeugen)
 - [_Join_mit_Rest](#_Join_mit_Rest)
 - [_kreisgrenze_viersen](#_kreisgrenze_viersen)
+- [_osm_editor_url](#_osm_editor_url)
 - [_puffer_in_projekteinheit](#_puffer_in_projekteinheit)
 - [_zaehle_kleines_im_grossen](#_zaehle_kleines_im_grossen)
 - WFS Daten Kreis Viersen (KVIE)
@@ -32,6 +33,10 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/latest/de/doc
 #### _kreisgrenze_viersen
 
 ![_kreisgrenze_viersen](models/_kreisgrenze_viersen.png "_kreisgrenze_viersen")
+
+#### _osm_editor_url
+
+![_osm_editor_url](models/_osm_editor_url.png "_osm_editor_url")
 
 #### _puffer_in_projekteinheit
 
