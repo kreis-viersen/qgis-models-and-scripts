@@ -170,7 +170,7 @@
   <Option name="help"/>
   <Option name="modelVariables"/>
   <Option type="QString" value="" name="model_group"/>
-  <Option type="QString" value="Kreisgrenze Viersen" name="model_name"/>
+  <Option type="QString" value="Kreisgrenze Viersen (*)" name="model_name"/>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="native:extractbyattribute_1:Kreisgrenze Viersen">
       <Option type="bool" value="true" name="create_by_default"/>

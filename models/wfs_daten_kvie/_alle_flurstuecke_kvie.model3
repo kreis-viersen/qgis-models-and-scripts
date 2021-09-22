@@ -688,7 +688,7 @@
   <Option name="help"/>
   <Option name="modelVariables"/>
   <Option name="model_group" type="QString" value="WFS Daten"/>
-  <Option name="model_name" type="QString" value="alle Flurstücke KVIE"/>
+  <Option name="model_name" type="QString" value="alle Flurstücke KVIE (*)"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="Kommunen" type="Map">
       <Option name="allow_multiple" type="bool" value="true"/>

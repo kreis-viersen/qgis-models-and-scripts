@@ -285,7 +285,7 @@
   </Option>
   <Option name="modelVariables"/>
   <Option value="" name="model_group" type="QString"/>
-  <Option value="_Join_mit_Rest" name="model_name" type="QString"/>
+  <Option value="Join mit Rest (*)" name="model_name" type="QString"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="InputLayer1" type="Map">
       <Option name="data_types" type="List">

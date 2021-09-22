@@ -170,7 +170,7 @@
   </Option>
   <Option name="modelVariables"/>
   <Option value="analytisch zusammenfügen (az)" name="model_group" type="QString"/>
-  <Option value="Attribut und berührt (az)" name="model_name" type="QString"/>
+  <Option value="Attribut und berührt (az) (*)" name="model_name" type="QString"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="EingabeLayer" type="Map">
       <Option name="data_types" type="List">
