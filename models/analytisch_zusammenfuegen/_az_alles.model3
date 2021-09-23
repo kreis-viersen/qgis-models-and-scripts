@@ -134,7 +134,7 @@
   </Option>
   <Option name="modelVariables"/>
   <Option type="QString" name="model_group" value="analytisch zusammenfügen (az)"/>
-  <Option type="QString" name="model_name" value="alles (az)"/>
+  <Option type="QString" name="model_name" value="alles (az) (*)"/>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="EingabeLayer">
       <Option type="List" name="data_types">

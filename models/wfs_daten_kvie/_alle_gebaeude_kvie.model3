@@ -739,7 +739,7 @@
   <Option name="help"/>
   <Option name="modelVariables"/>
   <Option value="WFS Daten" type="QString" name="model_group"/>
-  <Option value="alle Gebäude KVIE" type="QString" name="model_name"/>
+  <Option value="alle Gebäude KVIE (*)" type="QString" name="model_name"/>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="Kommunen">
       <Option value="true" type="bool" name="allow_multiple"/>

@@ -195,7 +195,7 @@
   </Option>
   <Option name="modelVariables"/>
   <Option type="QString" name="model_group" value=""/>
-  <Option type="QString" name="model_name" value="_Centerpoint_Koordinaten_erzeugen"/>
+  <Option type="QString" name="model_name" value="Centerpoint Koordinaten erzeugen (*)"/>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="Inputlayer">
       <Option type="List" name="data_types">

@@ -196,7 +196,7 @@
   </Option>
   <Option name="modelVariables"/>
   <Option type="QString" name="model_group" value=""/>
-  <Option type="QString" name="model_name" value="zähle Kleines im Großen"/>
+  <Option type="QString" name="model_name" value="zähle Kleines im Großen (*)"/>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="groe">
       <Option type="List" name="data_types">

@@ -255,7 +255,7 @@
   <Option name="help"/>
   <Option name="modelVariables"/>
   <Option name="model_group" type="QString" value="WFS Daten"/>
-  <Option name="model_name" type="QString" value="alle Nutzungsarten KVIE"/>
+  <Option name="model_name" type="QString" value="alle Nutzungsarten KVIE (*)"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="native:deletecolumn_1:alle Nutzungsarten KVIE" type="Map">
       <Option name="create_by_default" type="bool" value="true"/>
