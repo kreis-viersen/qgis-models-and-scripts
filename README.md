@@ -15,10 +15,10 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/latest/de/doc
   - [_alle_navigeb_kvie](#_alle_navigeb_kvie)
   - [_alle_nutzungsarten_kvie](#_alle_nutzungsarten_kvie)
 - analytisch zusammenfügen (az)
-  - [_az_alles](#_az_alles)
-  - [_az_attribut](#_az_attribut)
-  - [_az_attribut_beruehrt](#_az_attribut_beruehrt)
-  - [_az_beruehrt](#_az_beruehrt)
+  - [az_alles_mit_anzahl](#az_alles_mit_anzahl)
+  - [az_attribut_mit_anzahl](#az_attribut_mit_anzahl)
+  - [az_attribut_beruehrt_mit_anzahl](#az_attribut_beruehrt_mit_anzahl)
+  - [az_beruehrt_mit_anzahl](#az_beruehrt_mit_anzahl)
 
 ### Grafische Übersichten der Modelle
 
@@ -62,18 +62,18 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/latest/de/doc
 
 ![_alle_nutzungsarten_kvie](models/wfs_daten_kvie/_alle_nutzungsarten_kvie.png "_alle_nutzungsarten_kvie")
 
-#### _az_alles
+#### az_alles_mit_anzahl
 
-![_az_alles](models/analytisch_zusammenfuegen/_az_alles.png "_az_alles")
+![az_alles_mit_anzahl](models/analytisch_zusammenfuegen/az_alles_mit_anzahl.png "az_alles_mit_anzahl")
 
-#### _az_attribut
+#### az_attribut_mit_anzahl
 
-![_az_attribut](models/analytisch_zusammenfuegen/_az_attribut.png "_az_attribut")
+![az_attribut_mit_anzahl](models/analytisch_zusammenfuegen/az_attribut_mit_anzahl.png "az_attribut_mit_anzahl")
 
-#### _az_attribut_beruehrt
+#### az_attribut_beruehrt_mit_anzahl
 
-![_az_attribut_beruehrt](models/analytisch_zusammenfuegen/_az_attribut_beruehrt.png "_az_attribut_beruehrt")
+![az_attribut_beruehrt_mit_anzahl](models/analytisch_zusammenfuegen/az_attribut_beruehrt_mit_anzahl.png "az_attribut_beruehrt_mit_anzahl")
 
-#### _az_beruehrt
+#### az_beruehrt_mit_anzahl
 
-![_az_beruehrt](models/analytisch_zusammenfuegen/_az_beruehrt.png "_az_beruehrt")
+![az_beruehrt_mit_anzahl](models/analytisch_zusammenfuegen/az_beruehrt_mit_anzahl.png "az_beruehrt_mit_anzahl")
