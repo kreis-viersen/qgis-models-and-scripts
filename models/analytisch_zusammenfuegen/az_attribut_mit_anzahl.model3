@@ -299,7 +299,7 @@
     </Option>
     <Option type="Map" name="NurGeometrienmitfolgendenAttributenzusammenfgen">
       <Option type="bool" value="true" name="allow_multiple"/>
-      <Option type="int" value="1" name="data_type"/>
+      <Option type="int" value="-1" name="data_type"/>
       <Option type="invalid" name="defaultGui"/>
       <Option type="bool" value="false" name="default_to_all_fields"/>
       <Option type="QString" value="Nur Geometrien mit folgenden Attributen zusammenfügen" name="description"/>
