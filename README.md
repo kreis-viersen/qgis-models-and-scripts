@@ -6,6 +6,7 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/latest/de/doc
 - [centerpoint_koordinaten_erzeugen](#centerpoint_koordinaten_erzeugen)
 - [join_mit_rest](#join_mit_rest)
 - [kreisgrenze_viersen](#kreisgrenze_viersen)
+- [naechste_adresse_kvie](#naechste_adresse_kvie)
 - [osm_editor_url](#osm_editor_url)
 - [puffer_in_projekteinheit](#puffer_in_projekteinheit)
 - [zaehle_kleines_im_grossen](#zaehle_kleines_im_grossen)
@@ -33,6 +34,10 @@ Individuelle Modelle für den [QGIS Modeler](https://docs.qgis.org/latest/de/doc
 #### kreisgrenze_viersen
 
 ![kreisgrenze_viersen](models/kreisgrenze_viersen.png "kreisgrenze_viersen")
+
+#### naechste_adresse_kvie
+
+![naechste_adresse_kvie](models/naechste_adresse_kvie.png "naechste_adresse_kvie")
 
 #### osm_editor_url
 
