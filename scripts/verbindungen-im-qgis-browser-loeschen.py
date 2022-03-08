@@ -74,15 +74,15 @@ class deleteBrowserConnections(QgsProcessingAlgorithm):
 
         outputList = []
 
+        settings = QSettings()
+
         for i in input:
-            settings = QSettings()
             settings.beginGroup('qgis/connections-' + self.connectionsId[i])
             settings.remove("")
             settings.endGroup()
 
             # for some connection types some information is stored differently
             if self.connectionsId[i].upper() in self.connectionsId2:
-                settings = QSettings()
                 settings.beginGroup('qgis/' + self.connectionsId[i].upper())
                 settings.remove("")
                 settings.endGroup()
