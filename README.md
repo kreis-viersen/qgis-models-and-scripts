@@ -26,3 +26,11 @@ Fragen, Anmerkungen, Fehlermeldungen etc. können z.B. über ein [GitHub-Issue](
   - alle_flurstuecke_kkle
   - alle_gebaeude_kkle
   - alle_nutzungsarten_kkle
+- WFS Daten Kreis Wesel (KWES)
+  - alle_flurstuecke_kwes
+  - alle_gebaeude_kwes
+  - alle_navigeb_kwes
+  - alle_nutzungsarten_kwes
+- WFS Daten Stadt Krefeld (SKRE)
+  - alle_flurstuecke_skre
+  - alle_gebaeude_skre
