@@ -8,7 +8,10 @@ Fragen, Anmerkungen, Fehlermeldungen etc. können z.B. über ein [GitHub-Issue](
 - centerpoint_koordinaten_erzeugen
 - join_mit_rest
 - kreisgrenze_viersen
+- naechste_adresse_kkle
 - naechste_adresse_kvie
+- naechste_adresse_kwes
+- naechste_adresse_skre
 - osm_editor_url
 - puffer_in_projekteinheit
 - zaehle_kleines_im_grossen
@@ -25,6 +28,7 @@ Fragen, Anmerkungen, Fehlermeldungen etc. können z.B. über ein [GitHub-Issue](
 - WFS Daten Kreis Kleve (KKLE)
   - alle_flurstuecke_kkle
   - alle_gebaeude_kkle
+  - alle_navigeb_kkle
   - alle_nutzungsarten_kkle
 - WFS Daten Kreis Wesel (KWES)
   - alle_flurstuecke_kwes
