@@ -38,3 +38,4 @@ Fragen, Anmerkungen, Fehlermeldungen etc. können z.B. über ein [GitHub-Issue](
 - WFS Daten Stadt Krefeld (SKRE)
   - alle_flurstuecke_skre
   - alle_gebaeude_skre
+  - alle_nutzungsarten_skre
