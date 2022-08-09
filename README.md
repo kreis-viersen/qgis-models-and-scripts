@@ -6,6 +6,7 @@ Fragen, Anmerkungen, Fehlermeldungen etc. können z.B. über ein [GitHub-Issue](
 ### Übersicht Modelle
 
 - centerpoint_koordinaten_erzeugen
+- filter_nach_geometrietyp
 - join_mit_rest
 - kreisgrenze_viersen
 - naechste_adresse_kkle
