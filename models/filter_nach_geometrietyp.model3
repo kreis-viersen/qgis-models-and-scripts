@@ -154,10 +154,6 @@
     <Option type="Map" name="inputlayer">
       <Option type="List" name="data_types">
         <Option value="5" type="int"/>
-        <Option value="0" type="int"/>
-        <Option value="1" type="int"/>
-        <Option value="2" type="int"/>
-        <Option value="-1" type="int"/>
       </Option>
       <Option type="invalid" name="default"/>
       <Option type="invalid" name="defaultGui"/>
