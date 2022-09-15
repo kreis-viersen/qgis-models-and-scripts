@@ -143,7 +143,7 @@
     <Option name="ALG_CREATOR" value="Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de?subject=QGIS%20Modell%20%22Filter%20nach%20Geometrietyp%22&quot;>(E&amp;#8209;Mail)&lt;/a>" type="QString"/>
     <Option name="ALG_DESC" value="Filtert die Objekte eines Eingabelayers nach Geometrietyp und erzeugt 4 neue Layer (Punktobjekte, Linienobjekte, Polygonobjekte, Objekte ohne Geometrie).&#xa;&#xa;Anmerkung: Ab QGIS 3.28.0 steht dieser Algorithmus standardmäßig über die Werkzeugkiste zur Verfügung." type="QString"/>
     <Option name="ALG_HELP_CREATOR" value="" type="QString"/>
-    <Option name="ALG_VERSION" value="v1.0.0" type="QString"/>
+    <Option name="ALG_VERSION" value="v1.1" type="QString"/>
     <Option name="HELP_URL" value="https://github.com/kreis-viersen/qgis-models-and-scripts" type="QString"/>
     <Option name="SHORT_DESCRIPTION" value="Filtert Objekte eines Layers nach Geometrietyp" type="QString"/>
   </Option>
