@@ -163,7 +163,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_nutzung WHERE &quot;NUTZART&quot; = 'Straßenverkehr'   OR   &quot;NUTZART&quot; = 'Platz'  OR  &quot;NUTZART&quot; = 'Weg'  OR  &quot;NUTZART&quot; = 'Wohnbaufläche'" name="static_value"/>
+            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM skre_alkis_adv_nutzung WHERE &quot;NUTZART&quot; = 'Straßenverkehr'   OR   &quot;NUTZART&quot; = 'Platz'  OR  &quot;NUTZART&quot; = 'Weg'  OR  &quot;NUTZART&quot; = 'Wohnbaufläche'" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -205,7 +205,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_nutzung WHERE &quot;NUTZART&quot; != 'Straßenverkehr'   AND   &quot;NUTZART&quot; != 'Platz'  AND  &quot;NUTZART&quot; != 'Weg'  AND  &quot;NUTZART&quot; != 'Wohnbaufläche'" name="static_value"/>
+            <Option type="QString" value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM skre_alkis_adv_nutzung WHERE &quot;NUTZART&quot; != 'Straßenverkehr'   AND   &quot;NUTZART&quot; != 'Platz'  AND  &quot;NUTZART&quot; != 'Weg'  AND  &quot;NUTZART&quot; != 'Wohnbaufläche'" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -264,7 +264,7 @@
   <Option name="groupBoxes"/>
   <Option type="Map" name="help">
     <Option type="QString" value="" name="ALG_CREATOR"/>
-    <Option type="QString" value="Dieses Modell lädt alle Nutzungsarten in der Stadt Krefeld.&lt;br>&#xa;Quelle: &lt;a href=&quot;https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht?service=WFS&amp;request=GetCapabilities&quot;>ALKIS SKRE ADV vereinfacht&lt;/a>&lt;br>&#xa;Autor: Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de&quot;>(E&amp;#8209;Mail)&lt;/a>&lt;br>&#xa;Version: v1.0" name="ALG_DESC"/>
+    <Option type="QString" value="Dieses Modell lädt alle Nutzungsarten in der Stadt Krefeld.&lt;br>&#xa;Quelle: &lt;a href=&quot;https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht?service=WFS&amp;request=GetCapabilities&quot;>ALKIS SKRE ADV vereinfacht&lt;/a>&lt;br>&#xa;Autor: Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de&quot;>(E&amp;#8209;Mail)&lt;/a>&lt;br>&#xa;Version: v2.0" name="ALG_DESC"/>
     <Option type="QString" value="https://github.com/kreis-viersen/qgis-models-and-scripts" name="HELP_URL"/>
     <Option type="QString" value="Dieses Modell lädt alle Nutzungsarten in der Stadt Krefeld." name="SHORT_DESCRIPTION"/>
   </Option>

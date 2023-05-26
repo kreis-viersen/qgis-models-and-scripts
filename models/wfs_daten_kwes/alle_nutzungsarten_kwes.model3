@@ -153,7 +153,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_kwes_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_nutzung WHERE  &quot;NUTZART&quot; = 'Sport-, Freizeit- und Erholungsfläche'  OR  &quot;NUTZART&quot; = 'Wohnbaufläche'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kwes_alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_kwes_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kwes_alkis_adv_nutzung WHERE  &quot;NUTZART&quot; = 'Sport-, Freizeit- und Erholungsfläche'  OR  &quot;NUTZART&quot; = 'Wohnbaufläche'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -195,7 +195,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_kwes_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_nutzung WHERE &quot;NUTZART&quot; = 'Straßenverkehr'   OR   &quot;NUTZART&quot; = 'Platz'  OR  &quot;NUTZART&quot; = 'Weg' " type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kwes_alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_kwes_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kwes_alkis_adv_nutzung WHERE &quot;NUTZART&quot; = 'Straßenverkehr'   OR   &quot;NUTZART&quot; = 'Platz'  OR  &quot;NUTZART&quot; = 'Weg' " type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -237,7 +237,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_kwes_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_nutzung WHERE &quot;NUTZART&quot; = 'Landwirtschaft'   OR   &quot;NUTZART&quot; = 'Wald'  OR  &quot;NUTZART&quot; = 'Gehölz'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kwes_alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_kwes_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kwes_alkis_adv_nutzung WHERE &quot;NUTZART&quot; = 'Landwirtschaft'   OR   &quot;NUTZART&quot; = 'Wald'  OR  &quot;NUTZART&quot; = 'Gehölz'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -279,7 +279,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_kwes_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_nutzung WHERE &quot;NUTZART&quot; != 'Straßenverkehr'   AND   &quot;NUTZART&quot; != 'Platz'  AND  &quot;NUTZART&quot; != 'Weg'  AND  &quot;NUTZART&quot; != 'Wohnbaufläche' AND  &quot;NUTZART&quot; != 'Landwirtschaft'  AND  &quot;NUTZART&quot; != 'Sport-, Freizeit- und Erholungsfläche'AND  &quot;NUTZART&quot; != 'Wald'AND  &quot;NUTZART&quot; != 'Gehölz'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kwes_alkis_adv_nutzung' url='https://geoservices.krzn.de/security-proxy/services/wfs_kwes_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kwes_alkis_adv_nutzung WHERE &quot;NUTZART&quot; != 'Straßenverkehr'   AND   &quot;NUTZART&quot; != 'Platz'  AND  &quot;NUTZART&quot; != 'Weg'  AND  &quot;NUTZART&quot; != 'Wohnbaufläche' AND  &quot;NUTZART&quot; != 'Landwirtschaft'  AND  &quot;NUTZART&quot; != 'Sport-, Freizeit- und Erholungsfläche'AND  &quot;NUTZART&quot; != 'Wald'AND  &quot;NUTZART&quot; != 'Gehölz'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -345,7 +345,7 @@
   <Option name="designerParameterValues"/>
   <Option name="groupBoxes"/>
   <Option type="Map" name="help">
-    <Option value="Dieses Modell lädt alle Nutzungsarten im Kreis Wesel.&lt;br>&#xa;Quelle: &lt;a href=&quot;https://geoservices.krzn.de/security-proxy/services/wfs_kwes_alkis_adv_vereinfacht?service=WFS&amp;request=GetCapabilities&quot;>ALKIS KWES ADV vereinfacht&lt;/a>&lt;br>&#xa;Autor: Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de&quot;>(E&amp;#8209;Mail)&lt;/a>&lt;br>&#xa;Version: v1.0&#xa;" type="QString" name="ALG_DESC"/>
+    <Option value="Dieses Modell lädt alle Nutzungsarten im Kreis Wesel.&lt;br>&#xa;Quelle: &lt;a href=&quot;https://geoservices.krzn.de/security-proxy/services/wfs_kwes_alkis_adv_vereinfacht?service=WFS&amp;request=GetCapabilities&quot;>ALKIS KWES ADV vereinfacht&lt;/a>&lt;br>&#xa;Autor: Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de&quot;>(E&amp;#8209;Mail)&lt;/a>&lt;br>&#xa;Version: v2.0&#xa;" type="QString" name="ALG_DESC"/>
     <Option value="https://github.com/kreis-viersen/qgis-models-and-scripts" type="QString" name="HELP_URL"/>
     <Option value="Dieses Modell lädt alle Nutzungsarten im Kreis Wesel." type="QString" name="SHORT_DESCRIPTION"/>
   </Option>

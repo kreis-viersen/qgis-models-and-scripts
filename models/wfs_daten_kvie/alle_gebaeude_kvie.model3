@@ -149,7 +149,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166004'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kvie_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kvie_alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166004'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -271,7 +271,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166032' AND GFKZSHH IS NOT '31001_1010'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kvie_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kvie_alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166032' AND GFKZSHH IS NOT '31001_1010'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -318,7 +318,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166032' AND GFKZSHH = '31001_1010'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kvie_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kvie_alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166032' AND GFKZSHH = '31001_1010'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -365,7 +365,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166008'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kvie_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kvie_alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166008'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -412,7 +412,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166020'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kvie_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kvie_alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166020'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -459,7 +459,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166024'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kvie_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kvie_alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166024'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -506,7 +506,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166012'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kvie_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kvie_alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166012'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -553,7 +553,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166028'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kvie_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kvie_alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166028'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -600,7 +600,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166016'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kvie_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kvie_alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166016'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -647,7 +647,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166036'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kvie_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kvie_alkis_adv_gebaeudebauwerk WHERE GMDSCHL = '05166036'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -737,7 +737,7 @@
   <Option name="designerParameterValues"/>
   <Option name="groupBoxes"/>
   <Option type="Map" name="help">
-    <Option value="Dieses Modell lädt alle Gebäude im ausgewählten Bereich.&lt;br>&#xa;Quelle: &lt;a href=&quot;https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht?service=WFS&amp;request=GetCapabilities&quot;>ALKIS KVIE ADV vereinfacht&lt;/a>&lt;br>&#xa;Autor: Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de&quot;>(E&amp;#8209;Mail)&lt;/a>&lt;br>&#xa;Version: v1.0&#xa;" type="QString" name="ALG_DESC"/>
+    <Option value="Dieses Modell lädt alle Gebäude im ausgewählten Bereich.&lt;br>&#xa;Quelle: &lt;a href=&quot;https://geoservices.krzn.de/security-proxy/services/wfs_kvie_alkis_adv_vereinfacht?service=WFS&amp;request=GetCapabilities&quot;>ALKIS KVIE ADV vereinfacht&lt;/a>&lt;br>&#xa;Autor: Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de&quot;>(E&amp;#8209;Mail)&lt;/a>&lt;br>&#xa;Version: v2.0&#xa;" type="QString" name="ALG_DESC"/>
     <Option value="https://github.com/kreis-viersen/qgis-models-and-scripts" type="QString" name="HELP_URL"/>
     <Option value="Dieses Modell lädt alle Gebäude im ausgewählten Bereich." type="QString" name="SHORT_DESCRIPTION"/>
   </Option>

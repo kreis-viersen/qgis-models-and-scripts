@@ -177,7 +177,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Bedburg-Hau'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Bedburg-Hau'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -299,7 +299,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Rees'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Rees'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -346,7 +346,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Kranenburg'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Kranenburg'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -393,7 +393,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Straelen'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Straelen'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -440,7 +440,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Rheurdt'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Rheurdt'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -487,7 +487,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Issum'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Issum'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -534,7 +534,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Uedem'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Uedem'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -581,7 +581,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Weeze'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Weeze'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -628,7 +628,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Kevelaer'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Kevelaer'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -675,7 +675,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Emmerich am Rhein'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Emmerich am Rhein'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -722,7 +722,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Wachtendonk'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Wachtendonk'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -769,7 +769,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Kalkar'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Kalkar'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -816,7 +816,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Geldern'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Geldern'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -863,7 +863,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Kerken'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Kerken'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -910,7 +910,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Goch'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Goch'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -957,7 +957,7 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM alkis_adv_flurstueck WHERE GEMEINDE = 'Kleve'" type="QString" name="static_value"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:kkle_alkis_adv_flurstueck' url='https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM kkle_alkis_adv_flurstueck WHERE GEMEINDE = 'Kleve'" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -1071,7 +1071,7 @@
   <Option type="Map" name="designerParameterValues"/>
   <Option name="groupBoxes"/>
   <Option type="Map" name="help">
-    <Option value="Dieses Modell lädt alle Flurstücke im ausgewählten Bereich.&lt;br>&#xa;Quelle: &lt;a href=&quot;https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht?service=WFS&amp;request=GetCapabilities&quot;>ALKIS KKLE ADV vereinfacht&lt;/a>&lt;br>&#xa;Autor: Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de&quot;>(E&amp;#8209;Mail)&lt;/a>&lt;br>&#xa;Version: v1.0" type="QString" name="ALG_DESC"/>
+    <Option value="Dieses Modell lädt alle Flurstücke im ausgewählten Bereich.&lt;br>&#xa;Quelle: &lt;a href=&quot;https://geoservices.krzn.de/security-proxy/services/wfs_kkle_alkis_adv_vereinfacht?service=WFS&amp;request=GetCapabilities&quot;>ALKIS KKLE ADV vereinfacht&lt;/a>&lt;br>&#xa;Autor: Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de&quot;>(E&amp;#8209;Mail)&lt;/a>&lt;br>&#xa;Version: v2.0" type="QString" name="ALG_DESC"/>
     <Option value="https://github.com/kreis-viersen/qgis-models-and-scripts" type="QString" name="HELP_URL"/>
     <Option value="Dieses Modell lädt alle Flurstücke im ausgewählten Bereich." type="QString" name="SHORT_DESCRIPTION"/>
   </Option>
