@@ -1,878 +1,980 @@
 <!DOCTYPE model>
 <Option type="Map">
-  <Option type="Map" name="children">
-    <Option type="Map" name="native:condition_1">
-      <Option value="true" type="bool" name="active"/>
-      <Option type="Map" name="alg_config">
-        <Option type="List" name="conditions">
+  <Option name="children" type="Map">
+    <Option name="native:condition_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config" type="Map">
+        <Option name="conditions" type="List">
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,0)" type="QString" name="expression"/>
-            <Option value="Benrad" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,0)" name="expression" type="QString"/>
+            <Option value="Benrad" name="name" type="QString"/>
           </Option>
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,1)" type="QString" name="expression"/>
-            <Option value="Bockum" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,1)" name="expression" type="QString"/>
+            <Option value="Bockum" name="name" type="QString"/>
           </Option>
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,2)" type="QString" name="expression"/>
-            <Option value="Fischeln" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,2)" name="expression" type="QString"/>
+            <Option value="Fischeln" name="name" type="QString"/>
           </Option>
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,3)" type="QString" name="expression"/>
-            <Option value="Gellep-Stratum" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,3)" name="expression" type="QString"/>
+            <Option value="Gellep-Stratum" name="name" type="QString"/>
           </Option>
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,4)" type="QString" name="expression"/>
-            <Option value="Hüls" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,4)" name="expression" type="QString"/>
+            <Option value="Hüls" name="name" type="QString"/>
           </Option>
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,5)" type="QString" name="expression"/>
-            <Option value="Krefeld" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,5)" name="expression" type="QString"/>
+            <Option value="Krefeld" name="name" type="QString"/>
           </Option>
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,6)" type="QString" name="expression"/>
-            <Option value="Linn" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,6)" name="expression" type="QString"/>
+            <Option value="Linn" name="name" type="QString"/>
           </Option>
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,7)" type="QString" name="expression"/>
-            <Option value="Oppum" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,7)" name="expression" type="QString"/>
+            <Option value="Oppum" name="name" type="QString"/>
           </Option>
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,8)" type="QString" name="expression"/>
-            <Option value="Traar" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,8)" name="expression" type="QString"/>
+            <Option value="Traar" name="name" type="QString"/>
           </Option>
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,9)" type="QString" name="expression"/>
-            <Option value="Uerdingen" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,9)" name="expression" type="QString"/>
+            <Option value="Uerdingen" name="name" type="QString"/>
           </Option>
           <Option type="Map">
-            <Option value="array_contains(@Kommunen,10)" type="QString" name="expression"/>
-            <Option value="Verberg" type="QString" name="name"/>
+            <Option value="array_contains(@Kommunen,10)" name="expression" type="QString"/>
+            <Option value="Verberg" name="name" type="QString"/>
           </Option>
         </Option>
       </Option>
-      <Option value="native:condition" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="60" type="double" name="component_height"/>
-        <Option value="1249.4" type="double" name="component_pos_x"/>
-        <Option value="820" type="double" name="component_pos_y"/>
-        <Option value="100" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:condition" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1249.4" name="component_pos_x" type="double"/>
+        <Option value="820" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Bedingte Verzweigung" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="104.75914250000005" type="double" name="component_pos_x"/>
-      <Option value="449.44137775000013" type="double" name="component_pos_y"/>
-      <Option value="200" type="double" name="component_width"/>
+      <Option value="Bedingte Verzweigung" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="104.75914250000005" name="component_pos_x" type="double"/>
+      <Option value="449.44137775000013" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
-      <Option value="native:condition_1" type="QString" name="id"/>
+      <Option value="native:condition_1" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
       <Option name="params"/>
     </Option>
-    <Option type="Map" name="native:createspatialindex_1">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:createspatialindex_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:createspatialindex" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="60" type="double" name="component_height"/>
-        <Option value="868" type="double" name="component_pos_x"/>
-        <Option value="820" type="double" name="component_pos_y"/>
-        <Option value="100" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:createspatialindex" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="868" name="component_pos_x" type="double"/>
+        <Option value="820" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Räumlichen Index erzeugen" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="1099.85178275" type="double" name="component_pos_x"/>
-      <Option value="615.8502219999998" type="double" name="component_pos_y"/>
-      <Option value="200" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Räumlichen Index erzeugen" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="1180" name="component_pos_x" type="double"/>
+      <Option value="705" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:deletecolumn_10" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
+          <Option value="native:removeduplicatesbyattribute_1" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:createspatialindex_1" type="QString" name="id"/>
+      <Option value="native:createspatialindex_1" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="false" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="false" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="native:deletecolumn_10" type="QString" name="child_id"/>
-            <Option value="OUTPUT" type="QString" name="output_name"/>
-            <Option value="1" type="int" name="source"/>
+            <Option value="native:removeduplicatesbyattribute_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:deletecolumn_10">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:deletecolumn_10" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:deletecolumn" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="60" type="double" name="component_height"/>
-        <Option value="1055" type="double" name="component_pos_x"/>
-        <Option value="820" type="double" name="component_pos_y"/>
-        <Option value="100" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:deletecolumn" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1055" name="component_pos_x" type="double"/>
+        <Option value="820" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Feld(er) löschen" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="810.6630757499998" type="double" name="component_pos_x"/>
-      <Option value="533.029717" type="double" name="component_pos_y"/>
-      <Option value="200" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Feld(er) löschen" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="810.6630757499998" name="component_pos_x" type="double"/>
+      <Option value="533.029717" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:mergevectorlayers_1" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
+          <Option value="native:mergevectorlayers_1" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:deletecolumn_10" type="QString" name="id"/>
-      <Option type="Map" name="outputs">
-        <Option type="Map" name="Gebäude SKRE">
-          <Option value="native:deletecolumn_10" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="color"/>
-          <Option type="Map" name="comment">
-            <Option value="" type="QString" name="color"/>
-            <Option value="" type="QString" name="component_description"/>
-            <Option value="60" type="double" name="component_height"/>
-            <Option value="0" type="double" name="component_pos_x"/>
-            <Option value="0" type="double" name="component_pos_y"/>
-            <Option value="100" type="double" name="component_width"/>
-            <Option value="true" type="bool" name="outputs_collapsed"/>
-            <Option value="true" type="bool" name="parameters_collapsed"/>
-          </Option>
-          <Option value="Gebäude SKRE" type="QString" name="component_description"/>
-          <Option value="30" type="double" name="component_height"/>
-          <Option value="1084.8010405" type="double" name="component_pos_x"/>
-          <Option value="681.5132977499999" type="double" name="component_pos_y"/>
-          <Option value="200" type="double" name="component_width"/>
-          <Option type="invalid" name="default_value"/>
-          <Option value="false" type="bool" name="mandatory"/>
-          <Option value="Gebäude SKRE" type="QString" name="name"/>
-          <Option value="OUTPUT" type="QString" name="output_name"/>
-          <Option value="true" type="bool" name="outputs_collapsed"/>
-          <Option value="true" type="bool" name="parameters_collapsed"/>
-        </Option>
-      </Option>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="COLUMN">
+      <Option value="native:deletecolumn_10" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="COLUMN" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="StringList" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="StringList">
               <Option value="layer" type="QString"/>
               <Option value="path" type="QString"/>
             </Option>
           </Option>
         </Option>
-        <Option type="List" name="INPUT">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="native:mergevectorlayers_1" type="QString" name="child_id"/>
-            <Option value="OUTPUT" type="QString" name="output_name"/>
-            <Option value="1" type="int" name="source"/>
+            <Option value="native:mergevectorlayers_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_1">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="966.3812499999999" type="double" name="component_pos_x"/>
-        <Option value="363.86750000000006" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="966.3812499999999" name="component_pos_x" type="double"/>
+        <Option value="363.86750000000006" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude Benrad" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="366.5" type="double" name="component_pos_x"/>
-      <Option value="129" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Benrad" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="366.5" name="component_pos_x" type="double"/>
+      <Option value="129" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Benrad" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Benrad" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_1" type="QString" name="id"/>
+      <Option value="native:extractbylocation_1" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Benrad\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Benrad\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_10">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_10" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="2122.38125" type="double" name="component_pos_x"/>
-        <Option value="621.8675000000001" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="2122.38125" name="component_pos_x" type="double"/>
+        <Option value="621.8675000000001" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude Uerdingen" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="355.5" type="double" name="component_pos_x"/>
-      <Option value="887" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Uerdingen" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="358.5" name="component_pos_x" type="double"/>
+      <Option value="953.8" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Uerdingen" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Uerdingen" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_10" type="QString" name="id"/>
+      <Option value="native:extractbylocation_10" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Uerdingen\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Uerdingen\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_11">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_11" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="2050.38125" type="double" name="component_pos_x"/>
-        <Option value="605.8675000000001" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="2050.38125" name="component_pos_x" type="double"/>
+        <Option value="605.8675000000001" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude Verberg" type="QString" name="component_description"/>
-      <Option value="31" type="double" name="component_height"/>
-      <Option value="355.5" type="double" name="component_pos_x"/>
-      <Option value="962.5" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Verberg" name="component_description" type="QString"/>
+      <Option value="31" name="component_height" type="double"/>
+      <Option value="358.5" name="component_pos_x" type="double"/>
+      <Option value="1029.3" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Verberg" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Verberg" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_11" type="QString" name="id"/>
+      <Option value="native:extractbylocation_11" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNGSSCHLUESSEL&quot; = \'3048\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNGSSCHLUESSEL&quot; = \'3048\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_2">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_12" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="1123.38125" type="double" name="component_pos_x"/>
-        <Option value="369.86750000000006" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="1896.38125" name="component_pos_x" type="double"/>
+        <Option value="443.0675000000001" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude Bockum" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="359.5" type="double" name="component_pos_x"/>
-      <Option value="232" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Krefeld ohne Wohngebäude" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="371.5" name="component_pos_x" type="double"/>
+      <Option value="655" name="component_pos_y" type="double"/>
+      <Option value="276.99999999999994" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Bockum" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Krefeld" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_2" type="QString" name="id"/>
+      <Option value="native:extractbylocation_12" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM skre_alkis_adv_gebaeudebauwerk WHERE GFKZSHH IS NOT '31001_1010'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Bockum\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Krefeld\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_3">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_2" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="1282.38125" type="double" name="component_pos_x"/>
-        <Option value="383.86750000000006" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="1123.38125" name="component_pos_x" type="double"/>
+        <Option value="369.86750000000006" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude Fischeln" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="364.5" type="double" name="component_pos_x"/>
-      <Option value="332" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Bockum" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="359.5" name="component_pos_x" type="double"/>
+      <Option value="232" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Fischeln" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Bockum" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_3" type="QString" name="id"/>
+      <Option value="native:extractbylocation_2" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Fischeln\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Bockum\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_4">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_3" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="1493.38125" type="double" name="component_pos_x"/>
-        <Option value="398.86750000000006" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="1282.38125" name="component_pos_x" type="double"/>
+        <Option value="383.86750000000006" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude GellepStratum" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="358.5" type="double" name="component_pos_x"/>
-      <Option value="429" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Fischeln" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="364.5" name="component_pos_x" type="double"/>
+      <Option value="332" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Gellep-Stratum" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Fischeln" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_4" type="QString" name="id"/>
+      <Option value="native:extractbylocation_3" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Gellep-Stratum\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Fischeln\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_5">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_4" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="1717.38125" type="double" name="component_pos_x"/>
-        <Option value="422.86750000000006" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="1493.38125" name="component_pos_x" type="double"/>
+        <Option value="398.86750000000006" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude Krefeld" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="360.5" type="double" name="component_pos_x"/>
-      <Option value="586" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude GellepStratum" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="358.5" name="component_pos_x" type="double"/>
+      <Option value="429" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Krefeld" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Gellep-Stratum" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_5" type="QString" name="id"/>
+      <Option value="native:extractbylocation_4" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Krefeld\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Gellep-Stratum\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_6">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_5" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="1717.38125" type="double" name="component_pos_x"/>
-        <Option value="422.86750000000006" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="1717.38125" name="component_pos_x" type="double"/>
+        <Option value="422.86750000000006" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude Hüls" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="359.5" type="double" name="component_pos_x"/>
-      <Option value="511" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Krefeld Wohngebäude" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="360.5" name="component_pos_x" type="double"/>
+      <Option value="586" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Hüls" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Krefeld" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_6" type="QString" name="id"/>
+      <Option value="native:extractbylocation_5" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' sql=SELECT * FROM skre_alkis_adv_gebaeudebauwerk WHERE GFKZSHH IS '31001_1010'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Hüls\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Krefeld\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_7">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_6" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="1929.38125" type="double" name="component_pos_x"/>
-        <Option value="438.86750000000006" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="1717.38125" name="component_pos_x" type="double"/>
+        <Option value="422.86750000000006" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude Oppum" type="QString" name="component_description"/>
-      <Option value="31" type="double" name="component_height"/>
-      <Option value="359.5" type="double" name="component_pos_x"/>
-      <Option value="736.5" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Hüls" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="359.5" name="component_pos_x" type="double"/>
+      <Option value="511" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Oppum" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Hüls" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_7" type="QString" name="id"/>
+      <Option value="native:extractbylocation_6" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Oppum\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Hüls\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_8">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_7" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="1929.38125" type="double" name="component_pos_x"/>
-        <Option value="438.86750000000006" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="1929.38125" name="component_pos_x" type="double"/>
+        <Option value="438.86750000000006" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude Linn" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="359.5" type="double" name="component_pos_x"/>
-      <Option value="661" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Oppum" name="component_description" type="QString"/>
+      <Option value="31" name="component_height" type="double"/>
+      <Option value="362.5" name="component_pos_x" type="double"/>
+      <Option value="803.3" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Linn" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Oppum" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_8" type="QString" name="id"/>
+      <Option value="native:extractbylocation_7" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Linn\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Oppum\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:extractbylocation_9">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_8" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="41" type="double" name="component_height"/>
-        <Option value="2122.38125" type="double" name="component_pos_x"/>
-        <Option value="455.86750000000006" type="double" name="component_pos_y"/>
-        <Option value="221.18750000000003" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="1929.38125" name="component_pos_x" type="double"/>
+        <Option value="438.86750000000006" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Gebäude Traar" type="QString" name="component_description"/>
-      <Option value="31" type="double" name="component_height"/>
-      <Option value="357.5" type="double" name="component_pos_x"/>
-      <Option value="812.5" type="double" name="component_pos_y"/>
-      <Option value="254.99999999999997" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Linn" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="362.5" name="component_pos_x" type="double"/>
+      <Option value="727.8" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:condition_1" type="QString" name="child_id"/>
-          <Option value="Traar" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Linn" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:extractbylocation_9" type="QString" name="id"/>
+      <Option value="native:extractbylocation_8" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="INPUT">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="INTERSECT">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Traar\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Linn\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="PREDICATE">
+        <Option name="PREDICATE" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option type="List" name="static_value">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
               <Option value="0" type="int"/>
             </Option>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:mergevectorlayers_1">
-      <Option value="true" type="bool" name="active"/>
+    <Option name="native:extractbylocation_9" type="Map">
+      <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
-      <Option value="native:mergevectorlayers" type="QString" name="alg_id"/>
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="60" type="double" name="component_height"/>
-        <Option value="525" type="double" name="component_pos_x"/>
-        <Option value="820" type="double" name="component_pos_y"/>
-        <Option value="100" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="41" name="component_height" type="double"/>
+        <Option value="2122.38125" name="component_pos_x" type="double"/>
+        <Option value="455.86750000000006" name="component_pos_y" type="double"/>
+        <Option value="221.18750000000003" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Vektorlayer zusammenführen" type="QString" name="component_description"/>
-      <Option value="37.19999999999999" type="double" name="component_height"/>
-      <Option value="735.64101" type="double" name="component_pos_x"/>
-      <Option value="415.9253967500001" type="double" name="component_pos_y"/>
-      <Option value="200" type="double" name="component_width"/>
-      <Option type="List" name="dependencies">
+      <Option value="Gebäude Traar" name="component_description" type="QString"/>
+      <Option value="31" name="component_height" type="double"/>
+      <Option value="360.5" name="component_pos_x" type="double"/>
+      <Option value="879.3" name="component_pos_y" type="double"/>
+      <Option value="254.99999999999997" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
         <Option type="Map">
-          <Option value="native:extractbylocation_2" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
-        </Option>
-        <Option type="Map">
-          <Option value="native:extractbylocation_1" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
-        </Option>
-        <Option type="Map">
-          <Option value="native:extractbylocation_10" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
-        </Option>
-        <Option type="Map">
-          <Option value="native:extractbylocation_11" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
-        </Option>
-        <Option type="Map">
-          <Option value="native:extractbylocation_3" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
-        </Option>
-        <Option type="Map">
-          <Option value="native:extractbylocation_4" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
-        </Option>
-        <Option type="Map">
-          <Option value="native:extractbylocation_5" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
-        </Option>
-        <Option type="Map">
-          <Option value="native:extractbylocation_6" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
-        </Option>
-        <Option type="Map">
-          <Option value="native:extractbylocation_7" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
-        </Option>
-        <Option type="Map">
-          <Option value="native:extractbylocation_8" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
-        </Option>
-        <Option type="Map">
-          <Option value="native:extractbylocation_9" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="conditional_branch"/>
+          <Option value="native:condition_1" name="child_id" type="QString"/>
+          <Option value="Traar" name="conditional_branch" type="QString"/>
         </Option>
       </Option>
-      <Option value="native:mergevectorlayers_1" type="QString" name="id"/>
+      <Option value="native:extractbylocation_9" name="id" type="QString"/>
       <Option name="outputs"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="CRS">
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="2" type="int" name="source"/>
-            <Option value="ProjectCrs" type="QString" name="static_value"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:skre_alkis_adv_gebaeudebauwerk' url='https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht' version='auto' " name="static_value" type="QString"/>
           </Option>
         </Option>
-        <Option type="List" name="LAYERS">
+        <Option name="INTERSECT" type="List">
           <Option type="Map">
-            <Option value="array( @Gebäude_Benrad_OUTPUT, @Gebäude_Bockum_OUTPUT , @Gebäude_Fischeln_OUTPUT , @Gebäude_GellepStratum_OUTPUT , @Gebäude_Hüls_OUTPUT , @Gebäude_Krefeld_OUTPUT , @Gebäude_Linn_OUTPUT , @Gebäude_Oppum_OUTPUT , @Gebäude_Traar_OUTPUT , @Gebäude_Uerdingen_OUTPUT , @Gebäude_Verberg_OUTPUT   )" type="QString" name="expression"/>
-            <Option value="3" type="int" name="source"/>
+            <Option value="2" name="source" type="int"/>
+            <Option value="WFS:// filter='&quot;GEMARKUNG&quot; = \'Traar\'' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gis:gemarkungsgrenzen' url='https://geoservices.krzn.de/security-proxy/services/wfs_verb_grenzen'" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="PREDICATE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
+              <Option value="0" type="int"/>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:mergevectorlayers_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:mergevectorlayers" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="525" name="component_pos_x" type="double"/>
+        <Option value="820" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Vektorlayer zusammenführen" name="component_description" type="QString"/>
+      <Option value="37.19999999999999" name="component_height" type="double"/>
+      <Option value="735.64101" name="component_pos_x" type="double"/>
+      <Option value="415.9253967500001" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option value="native:extractbylocation_2" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbylocation_1" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbylocation_10" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbylocation_11" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbylocation_3" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbylocation_4" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbylocation_5" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbylocation_6" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbylocation_7" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbylocation_8" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbylocation_9" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+      </Option>
+      <Option value="native:mergevectorlayers_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="CRS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="ProjectCrs" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="LAYERS" type="List">
+          <Option type="Map">
+            <Option value="array( @Gebäude_Benrad_OUTPUT, @Gebäude_Bockum_OUTPUT , @Gebäude_Fischeln_OUTPUT , @Gebäude_GellepStratum_OUTPUT , @Gebäude_Hüls_OUTPUT , @Gebäude_Krefeld_Wohngebäude_OUTPUT , @Gebäude_Krefeld_ohne_Wohngebäude_OUTPUT , @Gebäude_Linn_OUTPUT , @Gebäude_Oppum_OUTPUT , @Gebäude_Traar_OUTPUT , @Gebäude_Uerdingen_OUTPUT , @Gebäude_Verberg_OUTPUT   )" name="expression" type="QString"/>
+            <Option value="3" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:removeduplicatesbyattribute_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:removeduplicatesbyattribute" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1519.85178275" name="component_pos_x" type="double"/>
+        <Option value="1084.3" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Doppelte Objekte löschen" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="940" name="component_pos_x" type="double"/>
+      <Option value="705" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option value="native:deletecolumn_10" name="child_id" type="QString"/>
+          <Option value="" name="conditional_branch" type="QString"/>
+        </Option>
+      </Option>
+      <Option value="native:removeduplicatesbyattribute_1" name="id" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="Gebäude SKRE" type="Map">
+          <Option value="native:removeduplicatesbyattribute_1" name="child_id" type="QString"/>
+          <Option value="" name="color" type="QString"/>
+          <Option name="comment" type="Map">
+            <Option value="" name="color" type="QString"/>
+            <Option value="" name="component_description" type="QString"/>
+            <Option value="60" name="component_height" type="double"/>
+            <Option value="0" name="component_pos_x" type="double"/>
+            <Option value="0" name="component_pos_y" type="double"/>
+            <Option value="100" name="component_width" type="double"/>
+            <Option value="true" name="outputs_collapsed" type="bool"/>
+            <Option value="true" name="parameters_collapsed" type="bool"/>
+          </Option>
+          <Option value="Gebäude SKRE" name="component_description" type="QString"/>
+          <Option value="30" name="component_height" type="double"/>
+          <Option value="1030" name="component_pos_x" type="double"/>
+          <Option value="825" name="component_pos_y" type="double"/>
+          <Option value="200" name="component_width" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option value="false" name="mandatory" type="bool"/>
+          <Option value="Gebäude SKRE" name="name" type="QString"/>
+          <Option value="OUTPUT" name="output_name" type="QString"/>
+          <Option value="true" name="outputs_collapsed" type="bool"/>
+          <Option value="true" name="parameters_collapsed" type="bool"/>
+        </Option>
+      </Option>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="FIELDS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="StringList">
+              <Option value="OID" type="QString"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="native:deletecolumn_10" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
           </Option>
         </Option>
       </Option>
     </Option>
   </Option>
-  <Option type="Map" name="designerParameterValues"/>
+  <Option name="designerParameterValues"/>
   <Option name="groupBoxes"/>
-  <Option type="Map" name="help">
-    <Option value="Dieses Modell lädt alle Gebäude im ausgewählten Bereich.&lt;br>&#xa;Quelle: &lt;a href=&quot;https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht?service=WFS&amp;request=GetCapabilities&quot;>ALKIS SKRE ADV vereinfacht&lt;/a>&lt;br>&#xa;Autor: Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de&quot;>(E&amp;#8209;Mail)&lt;/a>&lt;br>&#xa;Version: v2.0" type="QString" name="ALG_DESC"/>
-    <Option value="https://github.com/kreis-viersen/qgis-models-and-scripts" type="QString" name="HELP_URL"/>
-    <Option value="Dieses Modell lädt alle Gebäude im ausgewählten Bereich." type="QString" name="SHORT_DESCRIPTION"/>
+  <Option name="help" type="Map">
+    <Option value="Dieses Modell lädt alle Gebäude im ausgewählten Bereich.&lt;br>&#xa;Quelle: &lt;a href=&quot;https://geoservices.krzn.de/security-proxy/services/wfs_skre_alkis_adv_vereinfacht?service=WFS&amp;request=GetCapabilities&quot;>ALKIS SKRE ADV vereinfacht&lt;/a>&lt;br>&#xa;Autor: Kreis Viersen &lt;a href=&quot;mailto:open@kreis-viersen.de&quot;>(E&amp;#8209;Mail)&lt;/a>&lt;br>&#xa;Version: v2.0" name="ALG_DESC" type="QString"/>
+    <Option value="https://github.com/kreis-viersen/qgis-models-and-scripts" name="HELP_URL" type="QString"/>
+    <Option value="Dieses Modell lädt alle Gebäude im ausgewählten Bereich." name="SHORT_DESCRIPTION" type="QString"/>
   </Option>
+  <Option value="Version1" name="internal_version" type="QString"/>
   <Option name="modelVariables"/>
-  <Option value="WFS Daten" type="QString" name="model_group"/>
-  <Option value="alle Gebäude SKRE" type="QString" name="model_name"/>
-  <Option type="Map" name="parameterDefinitions">
-    <Option type="Map" name="Kommunen">
-      <Option value="true" type="bool" name="allow_multiple"/>
-      <Option type="List" name="default">
+  <Option value="WFS Daten" name="model_group" type="QString"/>
+  <Option value="alle Gebäude SKRE" name="model_name" type="QString"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="Kommunen" type="Map">
+      <Option value="true" name="allow_multiple" type="bool"/>
+      <Option name="default" type="List">
         <Option value="0" type="int"/>
         <Option value="1" type="int"/>
         <Option value="2" type="int"/>
@@ -885,13 +987,13 @@
         <Option value="9" type="int"/>
         <Option value="10" type="int"/>
       </Option>
-      <Option type="invalid" name="defaultGui"/>
-      <Option value="Kommunen" type="QString" name="description"/>
-      <Option value="0" type="int" name="flags"/>
-      <Option value="" type="QString" name="help"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Kommunen" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
       <Option name="metadata"/>
-      <Option value="Kommunen" type="QString" name="name"/>
-      <Option type="StringList" name="options">
+      <Option value="Kommunen" name="name" type="QString"/>
+      <Option name="options" type="StringList">
         <Option value="Benrad" type="QString"/>
         <Option value="Bockum" type="QString"/>
         <Option value="Fischeln" type="QString"/>
@@ -904,46 +1006,50 @@
         <Option value="Uedingen" type="QString"/>
         <Option value="Verberg" type="QString"/>
       </Option>
-      <Option value="enum" type="QString" name="parameter_type"/>
-      <Option value="false" type="bool" name="uses_static_strings"/>
+      <Option value="enum" name="parameter_type" type="QString"/>
+      <Option value="false" name="uses_static_strings" type="bool"/>
     </Option>
-    <Option type="Map" name="native:deletecolumn_10:Gebäude SKRE">
-      <Option value="true" type="bool" name="create_by_default"/>
-      <Option value="-1" type="int" name="data_type"/>
-      <Option type="invalid" name="default"/>
-      <Option type="invalid" name="defaultGui"/>
-      <Option value="Gebäude SKRE" type="QString" name="description"/>
-      <Option value="0" type="int" name="flags"/>
-      <Option value="" type="QString" name="help"/>
-      <Option name="metadata"/>
-      <Option value="native:deletecolumn_10:Gebäude SKRE" type="QString" name="name"/>
-      <Option value="sink" type="QString" name="parameter_type"/>
-      <Option value="true" type="bool" name="supports_append"/>
-      <Option value="true" type="bool" name="supports_non_file_outputs"/>
+    <Option name="native:removeduplicatesbyattribute_1:Gebäude SKRE" type="Map">
+      <Option value="true" name="create_by_default" type="bool"/>
+      <Option value="-1" name="data_type" type="int"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Gebäude SKRE" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata" type="Map">
+        <Option value="native:removeduplicatesbyattribute_1" name="_modelChildId" type="QString"/>
+        <Option value="Gebäude SKRE" name="_modelChildOutputName" type="QString"/>
+        <Option value="native" name="_modelChildProvider" type="QString"/>
+      </Option>
+      <Option value="native:removeduplicatesbyattribute_1:Gebäude SKRE" name="name" type="QString"/>
+      <Option value="sink" name="parameter_type" type="QString"/>
+      <Option value="false" name="supports_append" type="bool"/>
+      <Option value="true" name="supports_non_file_outputs" type="bool"/>
     </Option>
   </Option>
   <Option name="parameterOrder"/>
-  <Option type="Map" name="parameters">
-    <Option type="Map" name="Kommunen">
-      <Option value="" type="QString" name="color"/>
-      <Option type="Map" name="comment">
-        <Option value="255,0,0,255" type="QString" name="color"/>
-        <Option value="" type="QString" name="component_description"/>
-        <Option value="60" type="double" name="component_height"/>
-        <Option value="312.8" type="double" name="component_pos_x"/>
-        <Option value="98.2" type="double" name="component_pos_y"/>
-        <Option value="100" type="double" name="component_width"/>
-        <Option value="true" type="bool" name="outputs_collapsed"/>
-        <Option value="true" type="bool" name="parameters_collapsed"/>
+  <Option name="parameters" type="Map">
+    <Option name="Kommunen" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="255,0,0,255" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="312.8" name="component_pos_x" type="double"/>
+        <Option value="98.2" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Kommunen" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="111.86463324999988" type="double" name="component_pos_x"/>
-      <Option value="75.19584499999999" type="double" name="component_pos_y"/>
-      <Option value="200" type="double" name="component_width"/>
-      <Option value="Kommunen" type="QString" name="name"/>
-      <Option value="true" type="bool" name="outputs_collapsed"/>
-      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option value="Kommunen" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="111.86463324999988" name="component_pos_x" type="double"/>
+      <Option value="75.19584499999999" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="Kommunen" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
     </Option>
   </Option>
 </Option>
