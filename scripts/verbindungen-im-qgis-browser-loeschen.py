@@ -51,7 +51,16 @@ class deleteBrowserConnections(QgsProcessingAlgorithm):
     def shortHelpString(self):
         return "Mit diesem Tool können Verbindungen im QGIS-Browser gelöscht werden."+'\n'\
         +'\n'\
-        +"Für gewählte Verbindungstypen werden ALLE selbst hinzugefügten Verbindungen dauerhaft gelöscht!"
+        + "Für gewählte Verbindungstypen werden ALLE selbst hinzugefügten Verbindungen dauerhaft gelöscht!"\
+        + "\n\n"\
+        + "Autor: Kreis Viersen"\
+        + "\n\n"\
+        + "Kontakt: open@kreis-viersen.de"\
+        + "\n\n"\
+        + "GitHub: https://github.com/kreis-viersen/qgis-models-and-scripts"\
+        + "\n\n"\
+        + "Version: 2.0"
+
 
     def shortDescription(self):
         return "Mit diesem Tool können Verbindungen im QGIS-Browser gelöscht werden."
@@ -84,11 +93,28 @@ class deleteBrowserConnections(QgsProcessingAlgorithm):
             settings.remove("")
             settings.endGroup()
 
+            if connection in ['wcs', 'wfs', 'wms']:
+                settings.beginGroup('connections/ows/items/' + connection + '/connections/')
+                settings.remove("")
+                settings.endGroup()
+            else:
+                settings.beginGroup('connections/' + connection)
+                settings.remove("")
+                settings.endGroup()
+
+
             # for some connection types some information is stored differently
             if connectionUpperCase in self.connectionsId2:
                 settings.beginGroup('qgis/' + connectionUpperCase)
                 settings.remove("")
                 settings.endGroup()
+                settings.beginGroup('qgis/connections/' + connectionUpperCase)
+                settings.remove("")
+                settings.endGroup()
+                if connectionUpperCase in ['WCS', 'WFS', 'WMS']:
+                    settings.beginGroup('connections/ows/items/' + connectionUpperCase + '/connections/')
+                    settings.remove("")
+                    settings.endGroup()
 
             outputList.append(self.connections[i])
 
