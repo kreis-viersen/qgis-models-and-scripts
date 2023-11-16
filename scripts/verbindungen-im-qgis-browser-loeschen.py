@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """
 ***************************************************************************
 Verbindungen im QGIS-Browser löschen
@@ -21,65 +19,71 @@ QGIS-Skript
 ***************************************************************************
 """
 
-from qgis.core import (QgsProcessing,
-                       QgsProcessingAlgorithm,
-                       QgsProcessingParameterEnum)
+from qgis.core import QgsProcessing, QgsProcessingAlgorithm, QgsProcessingParameterEnum
 
 from qgis.PyQt.QtCore import QSettings
 from qgis.utils import iface
 
+
 class deleteBrowserConnections(QgsProcessingAlgorithm):
-    connections = ['ArcGIS-REST-Server','Vector Tiles','WCS','WFS / OGC API - Features','WMS / WMTS','XYZ Tiles']
-    connectionsId = ['arcgisfeatureserver','vector-tile','wcs','wfs','wms','xyz']
-    connectionsId2 = ['ARCGISFEATURESERVER','WCS','WFS','WMS']
+    connections = [
+        "ArcGIS-REST-Server",
+        "Vector Tiles",
+        "WCS",
+        "WFS / OGC API - Features",
+        "WMS / WMTS",
+        "XYZ Tiles",
+    ]
+    connectionsId = ["arcgisfeatureserver", "vector-tile", "wcs", "wfs", "wms", "xyz"]
+    connectionsId2 = ["ARCGISFEATURESERVER", "WCS", "WFS", "WMS"]
 
     def createInstance(self):
         return deleteBrowserConnections()
 
     def name(self):
-        return 'deleteBrowserConnections'
+        return "deleteBrowserConnections"
 
     def displayName(self):
-        return 'Verbindungen im QGIS-Browser löschen'
+        return "Verbindungen im QGIS-Browser löschen"
 
     def group(self):
         return self.groupId()
 
     def groupId(self):
-        return ''
+        return ""
 
     def shortHelpString(self):
-        return "Mit diesem Tool können Verbindungen im QGIS-Browser gelöscht werden."+'\n'\
-        +'\n'\
-        + "Für gewählte Verbindungstypen werden ALLE selbst hinzugefügten Verbindungen dauerhaft gelöscht!"\
-        + "\n\n"\
-        + "Autor: Kreis Viersen"\
-        + "\n\n"\
-        + "Kontakt: open@kreis-viersen.de"\
-        + "\n\n"\
-        + "GitHub: https://github.com/kreis-viersen/qgis-models-and-scripts"\
-        + "\n\n"\
-        + "Version: 2.0"
-
+        return (
+            "Mit diesem Tool können Verbindungen im QGIS-Browser gelöscht werden."
+            + "\n"
+            + "\n"
+            + "Für gewählte Verbindungstypen werden ALLE selbst hinzugefügten Verbindungen dauerhaft gelöscht!"
+            + "\n\n"
+            + "Autor: Kreis Viersen"
+            + "\n\n"
+            + "Kontakt: open@kreis-viersen.de"
+            + "\n\n"
+            + "GitHub: https://github.com/kreis-viersen/qgis-models-and-scripts"
+            + "\n\n"
+            + "Version: 2.0"
+        )
 
     def shortDescription(self):
         return "Mit diesem Tool können Verbindungen im QGIS-Browser gelöscht werden."
 
     def initAlgorithm(self, config=None):
-
         self.addParameter(
             QgsProcessingParameterEnum(
-            name = 'connectionsToDelete',
-            description = 'Verbindungen im QGIS-Browser löschen',
-            options= self.connections,
-            allowMultiple=True,
-            usesStaticStrings=False
+                name="connectionsToDelete",
+                description="Verbindungen im QGIS-Browser löschen",
+                options=self.connections,
+                allowMultiple=True,
+                usesStaticStrings=False,
             )
         )
 
     def processAlgorithm(self, parameters, context, feedback):
-
-        input = self.parameterAsEnums(parameters,'connectionsToDelete',context)
+        input = self.parameterAsEnums(parameters, "connectionsToDelete", context)
 
         outputList = []
 
@@ -89,30 +93,33 @@ class deleteBrowserConnections(QgsProcessingAlgorithm):
             connection = self.connectionsId[i]
             connectionUpperCase = connection.upper()
 
-            settings.beginGroup('qgis/connections-' + connection)
+            settings.beginGroup("qgis/connections-" + connection)
             settings.remove("")
             settings.endGroup()
 
-            if connection in ['wcs', 'wfs', 'wms']:
-                settings.beginGroup('connections/ows/items/' + connection + '/connections/')
+            if connection in ["wcs", "wfs", "wms"]:
+                settings.beginGroup(
+                    "connections/ows/items/" + connection + "/connections/"
+                )
                 settings.remove("")
                 settings.endGroup()
             else:
-                settings.beginGroup('connections/' + connection)
+                settings.beginGroup("connections/" + connection)
                 settings.remove("")
                 settings.endGroup()
-
 
             # for some connection types some information is stored differently
             if connectionUpperCase in self.connectionsId2:
-                settings.beginGroup('qgis/' + connectionUpperCase)
+                settings.beginGroup("qgis/" + connectionUpperCase)
                 settings.remove("")
                 settings.endGroup()
-                settings.beginGroup('qgis/connections/' + connectionUpperCase)
+                settings.beginGroup("qgis/connections/" + connectionUpperCase)
                 settings.remove("")
                 settings.endGroup()
-                if connectionUpperCase in ['WCS', 'WFS', 'WMS']:
-                    settings.beginGroup('connections/ows/items/' + connectionUpperCase + '/connections/')
+                if connectionUpperCase in ["WCS", "WFS", "WMS"]:
+                    settings.beginGroup(
+                        "connections/ows/items/" + connectionUpperCase + "/connections/"
+                    )
                     settings.remove("")
                     settings.endGroup()
 
@@ -120,4 +127,4 @@ class deleteBrowserConnections(QgsProcessingAlgorithm):
 
         iface.reloadConnections()
 
-        return {'Folgende Verbindungen wurden gelöscht': outputList}
+        return {"Folgende Verbindungen wurden gelöscht": outputList}
