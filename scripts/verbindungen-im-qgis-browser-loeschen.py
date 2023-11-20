@@ -113,13 +113,14 @@ class deleteBrowserConnections(QgsProcessingAlgorithm):
                 settings.beginGroup("qgis/" + connectionUpperCase)
                 settings.remove("")
                 settings.endGroup()
-                settings.beginGroup("qgis/connections/" + connectionUpperCase)
-                settings.remove("")
-                settings.endGroup()
                 if connectionUpperCase in ["WCS", "WFS", "WMS"]:
                     settings.beginGroup(
                         "connections/ows/items/" + connectionUpperCase + "/connections/"
                     )
+                    settings.remove("")
+                    settings.endGroup()
+                else:
+                    settings.beginGroup("qgis/connections/" + connectionUpperCase)
                     settings.remove("")
                     settings.endGroup()
 
